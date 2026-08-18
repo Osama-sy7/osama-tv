@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Osama TV</title>
+  <style>
+    body { background-color: #0b132b; color: white; font-family: sans-serif; text-align: center; }
+    h1 { color: #00b4d8; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; padding: 20px; }
+    .card { background: #1c2541; padding: 10px; border-radius: 8px; }
+    img { width: 100%; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Osama TV</h1>
+  <div class="grid" id="content-grid">جاري تحميل البيانات...</div>
+  <script>
+    fetch('./data.json').then(r => r.json()).then(data => {
+      const grid = document.getElementById('content-grid');
+      const all = [...(data.movies || []), ...(data.series || [])];
+      grid.innerHTML = all.map(i => `<div class="card"><img src="https://image.tmdb.org/t/p/w200${i.poster_path}"><p>${i.title || i.name}</p></div>`).join('');
+    });
+  </script>
+</body>
+</html>
