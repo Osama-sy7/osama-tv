@@ -2,24 +2,253 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Osama TV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osama TV | أسامة تي في</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { background-color: #0b132b; color: white; font-family: sans-serif; text-align: center; }
-    h1 { color: #00b4d8; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; padding: 20px; }
-    .card { background: #1c2541; padding: 10px; border-radius: 8px; }
-    img { width: 100%; border-radius: 5px; }
+    :root {
+      --bg-main: #0a1128;
+      --bg-card: #1c2541;
+      --primary-blue: #00b4d8;
+      --hover-blue: #90e0ef;
+      --text-white: #ffffff;
+      --text-muted: #a0aec0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-white);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      padding-bottom: 50px;
+    }
+
+    /* الهيدر وشريط الملاحة */
+    header {
+      background: linear-gradient(135deg, #0077b6, #023e8a);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo i { color: var(--primary-blue); }
+
+    .search-box {
+      position: relative;
+      width: 280px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 8px 15px 8px 35px;
+      border-radius: 20px;
+      border: 1px solid var(--primary-blue);
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      outline: none;
+    }
+
+    .search-box input::placeholder { color: var(--text-muted); }
+
+    /* الحاوية الرئيسية */
+    .container { padding: 2rem; max-width: 1300px; margin: auto; }
+
+    .section-title {
+      font-size: 1.4rem;
+      margin-bottom: 1.2rem;
+      border-right: 4px solid var(--primary-blue);
+      padding-right: 12px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* شبكة العرض */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* البطاقات والتأثيرات */
+    .card {
+      background-color: var(--bg-card);
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: 1px solid rgba(0, 180, 216, 0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 10px 25px rgba(0, 180, 216, 0.3);
+      border-color: var(--primary-blue);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-info {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .card-rating {
+      font-size: 0.8rem;
+      color: #ffd166;
+      margin-top: 5px;
+    }
+
+    /* نافذة مشغل الفيديو (Modal) */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background: var(--bg-card);
+      width: 90%;
+      max-width: 800px;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid var(--primary-blue);
+    }
+
+    .modal-header {
+      padding: 15px;
+      background: #0077b6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .close-btn {
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .player-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+    }
+
+    .player-container iframe {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      border: none;
+    }
   </style>
 </head>
 <body>
-  <h1>Osama TV</h1>
-  <div class="grid" id="content-grid">جاري تحميل البيانات...</div>
+
+  <header>
+    <div class="logo"><i class="fa-solid =>-tv"></i> Osama TV</div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="ابحث عن فيلم أو مسلسل..." onkeyup="filterContent()">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section-title"><i class="fa-solid fa-fire"></i> الأحدث والأكثر مشاهدة</div>
+    <div class="grid" id="content-grid"></div>
+  </div>
+
+  <!-- المشغل -->
+  <div class="modal" id="playerModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">عرض المحتوى</h3>
+        <span class="close-btn" onclick="closePlayer()">&times;</span>
+      </div>
+      <div class="player-container">
+        <iframe id="videoIframe" src="" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
   <script>
-    fetch('./data.json').then(r => r.json()).then(data => {
+    let allMedia = [];
+
+    async function loadContent() {
+      try {
+        const response = await fetch('./data.json');
+        const data = await response.json();
+        allMedia = [...(data.movies || []), ...(data.series || [])];
+        displayMedia(allMedia);
+      } catch (err) {
+        console.error("خطأ في جلب البيانات:", err);
+      }
+    }
+
+    function displayMedia(items) {
       const grid = document.getElementById('content-grid');
-      const all = [...(data.movies || []), ...(data.series || [])];
-      grid.innerHTML = all.map(i => `<div class="card"><img src="https://image.tmdb.org/t/p/w200${i.poster_path}"><p>${i.title || i.name}</p></div>`).join('');
-    });
+      grid.innerHTML = items.map(item => `
+        <div class="card" onclick="openPlayer('${item.id}', '${item.title ? 'movie' : 'tv'}', '${item.title || item.name}')">
+          <img src="https://image.tmdb.org/t/p/w500${item.poster_path}" alt="${item.title || item.name}">
+          <div class="card-info">
+            <div class="card-title">${item.title || item.name}</div>
+            <div class="card-rating"><i class="fa-solid fa-star"></i> ${item.vote_average ? item.vote_average.toFixed(1) : 'N/A'}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterContent() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const filtered = allMedia.filter(i => (i.title || i.name).toLowerCase().includes(query));
+      displayMedia(filtered);
+    }
+
+    function openPlayer(id, type, title) {
+      document.getElementById('modalTitle').innerText = title;
+      // استخدام مشغل Embed تلقائي
+      document.getElementById('videoIframe').src = `https://vidsrc.to/embed/${type}/${id}`;
+      document.getElementById('playerModal').style.display = 'flex';
+    }
+
+    function closePlayer() {
+      document.getElementById('playerModal').style.display = 'none';
+      document.getElementById('videoIframe').src = '';
+    }
+
+    loadContent();
   </script>
 </body>
 </html>
