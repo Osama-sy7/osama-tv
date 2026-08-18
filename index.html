@@ -3,42 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Osama TV | أسامة تي في</title>
+  <title>Osama Drama | أسامة دراما</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
-      --bg-dark: #080e1e;
-      --bg-card: #121d38;
-      --accent-blue: #00b4d8;
-      --glow-blue: rgba(0, 180, 216, 0.4);
+      --bg-main: #090a0f;
+      --bg-card: #12151e;
+      --accent: #e50914; /* أحمر سينمائي احترافي */
+      --accent-hover: #ff1e27;
       --text-main: #ffffff;
-      --text-sub: #90e0ef;
+      --text-sub: #a0a5b5;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background-color: var(--bg-dark);
+      background-color: var(--bg-main);
       color: var(--text-main);
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      padding-bottom: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-bottom: 50px;
     }
 
     header {
-      background: rgba(10, 25, 47, 0.95);
+      background: rgba(9, 10, 15, 0.95);
       backdrop-filter: blur(10px);
-      padding: 0.8rem 1.5rem;
+      padding: 0.8rem 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .top-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      border-bottom: 1px solid rgba(0, 180, 216, 0.2);
+      margin-bottom: 10px;
     }
 
-    .brand {
-      font-size: 1.6rem;
+    .logo {
+      font-size: 1.5rem;
       font-weight: 900;
       color: #fff;
       display: flex;
@@ -46,94 +50,109 @@
       gap: 8px;
     }
 
-    .brand span { color: var(--accent-blue); }
+    .logo span { color: var(--accent); }
+
+    .search-box {
+      width: 50%;
+      max-width: 280px;
+    }
 
     .search-box input {
       width: 100%;
-      padding: 8px 12px;
+      padding: 7px 14px;
       border-radius: 20px;
-      border: 1px solid rgba(0, 180, 216, 0.3);
-      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.08);
       color: #fff;
+      font-size: 0.85rem;
       outline: none;
     }
 
-    .container { padding: 1rem 1.5rem; }
-
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin: 1.8rem 0 1rem 0;
-      font-size: 1.2rem;
-      color: var(--text-sub);
-      border-right: 4px solid var(--accent-blue);
-      padding-right: 10px;
+    .search-box input:focus {
+      border-color: var(--accent);
     }
 
-    .horizontal-scroll {
+    /* الأقسام والتصنيفات */
+    .nav-categories {
       display: flex;
-      gap: 1rem;
+      gap: 8px;
       overflow-x: auto;
-      padding-bottom: 10px;
-      scroll-behavior: smooth;
+      padding-bottom: 4px;
+      white-space: nowrap;
     }
 
-    .horizontal-scroll::-webkit-scrollbar { height: 5px; }
-    .horizontal-scroll::-webkit-scrollbar-thumb { background: var(--accent-blue); border-radius: 10px; }
+    .nav-categories::-webkit-scrollbar { display: none; }
+
+    .cat-btn {
+      background: var(--bg-card);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-sub);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .cat-btn.active, .cat-btn:hover {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .container { padding: 1rem; }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 1.2rem 0 0.8rem 0;
+      border-right: 4px solid var(--accent);
+      padding-right: 8px;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+      gap: 0.8rem;
+    }
 
     .card {
-      min-width: 140px;
-      max-width: 140px;
       background: var(--bg-card);
-      border-radius: 10px;
+      border-radius: 8px;
       overflow: hidden;
       cursor: pointer;
-      transition: all 0.3s ease;
       position: relative;
       border: 1px solid rgba(255, 255, 255, 0.05);
-      flex-shrink: 0;
+      transition: transform 0.2s;
     }
 
     .card:hover {
-      transform: translateY(-5px) scale(1.03);
-      box-shadow: 0 5px 15px var(--glow-blue);
-      border-color: var(--accent-blue);
+      transform: scale(1.04);
+      border-color: var(--accent);
     }
 
     .card img {
       width: 100%;
-      height: 200px;
+      height: 165px;
       object-fit: cover;
     }
 
     .card-title {
-      padding: 8px;
-      font-size: 0.85rem;
+      padding: 6px;
+      font-size: 0.75rem;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      font-weight: 600;
     }
 
-    .badge {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-      background: rgba(0, 0, 0, 0.75);
-      color: #ffd166;
-      font-size: 0.7rem;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
+    /* نافذة المشغل بالحلقات والسيرفرات */
     .modal {
       display: none;
       position: fixed;
       top: 0; left: 0; width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.92);
-      z-index: 1000;
+      background: rgba(0, 0, 0, 0.95);
+      z-index: 2000;
       justify-content: center;
       align-items: center;
     }
@@ -142,26 +161,62 @@
       background: var(--bg-card);
       width: 95%;
       max-width: 850px;
-      border-radius: 12px;
+      border-radius: 10px;
       overflow: hidden;
-      border: 1px solid var(--accent-blue);
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .modal-header {
-      padding: 12px;
-      background: #0077b6;
+      padding: 10px 15px;
+      background: #000;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
-    .player-box {
+    .controls-panel {
+      background: #090a0f;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .controls-panel select {
+      background: var(--bg-card);
+      color: #fff;
+      border: 1px solid var(--accent);
+      padding: 5px 10px;
+      border-radius: 5px;
+      outline: none;
+      font-size: 0.85rem;
+    }
+
+    .server-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.75rem;
+    }
+
+    .server-btn.active {
+      background: var(--accent);
+    }
+
+    .video-wrapper {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
+      background: #000;
     }
 
-    .player-box iframe {
+    .video-wrapper iframe {
       position: absolute;
       top: 0; left: 0; width: 100%; height: 100%; border: 0;
     }
@@ -170,30 +225,53 @@
 <body>
 
   <header>
-    <div class="brand"><i class="fa-solid fa-play"></i> Osama<span>TV</span></div>
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="ابحث عن فيلم أو مسلسل..." onkeyup="searchApi()">
+    <div class="top-bar">
+      <div class="logo"><i class="fa-solid fa-play"></i> أسامة<span>دراما</span></div>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="ابحث عن مسلسل أو فيلم..." onkeyup="searchContent()">
+      </div>
+    </div>
+
+    <div class="nav-categories">
+      <button class="cat-btn active" onclick="loadContent('all', this)">الكل</button>
+      <button class="cat-btn" onclick="loadContent('drama', this)">مسلسلات دراما</button>
+      <button class="cat-btn" onclick="loadContent('turkish', this)">مسلسلات تركية</button>
+      <button class="cat-btn" onclick="loadContent('arabic', this)">مسلسلات عربية</button>
+      <button class="cat-btn" onclick="loadContent('action', this)">أفلام أكشن</button>
+      <button class="cat-btn" onclick="loadContent('horror', this)">أفلام رعب</button>
+      <button class="cat-btn" onclick="loadContent('comedy', this)">كوميديا</button>
+      <button class="cat-btn" onclick="loadContent('anime', this)">أنمي</button>
+      <button class="cat-btn" onclick="loadContent('plays', this)">مسرحيات</button>
+      <button class="cat-btn" onclick="loadContent('live', this)">🔴 بث مباشر</button>
     </div>
   </header>
 
-  <div class="container" id="mainContainer">
-    <div class="section-header"><i class="fa-solid fa-fire"></i> أحدث الأفلام</div>
-    <div class="horizontal-scroll" id="trending-movies"></div>
-
-    <div class="section-header"><i class="fa-solid fa-tv"></i> المسلسلات الشائعة</div>
-    <div class="horizontal-scroll" id="trending-series"></div>
-
-    <div class="section-header"><i class="fa-solid fa-star"></i> الأعلى تقييماً</div>
-    <div class="horizontal-scroll" id="top-rated"></div>
+  <div class="container">
+    <div id="displayArea"></div>
   </div>
 
   <div class="modal" id="playerModal">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 id="videoTitle">مشاهدة</h4>
+        <h5 id="mediaTitle">المشاهدة</h5>
         <i class="fa-solid fa-xmark" onclick="closePlayer()" style="cursor:pointer; font-size: 1.2rem;"></i>
       </div>
-      <div class="player-box">
+
+      <div class="controls-panel">
+        <div>
+          <span style="font-size:0.8rem;">السيرفر: </span>
+          <button class="server-btn active" onclick="setServer(1, this)">سيرفر 1</button>
+          <button class="server-btn" onclick="setServer(2, this)">سيرفر 2</button>
+          <button class="server-btn" onclick="setServer(3, this)">سيرفر 3</button>
+        </div>
+
+        <div id="seriesSelectors" style="display:none; display:flex; gap:8px;">
+          <select id="seasonSelect" onchange="onSeasonChange()"></select>
+          <select id="episodeSelect" onchange="updateVideoSrc()"></select>
+        </div>
+      </div>
+
+      <div class="video-wrapper">
         <iframe id="videoIframe" src="" allowfullscreen></iframe>
       </div>
     </div>
@@ -202,57 +280,175 @@
   <script>
     const API_KEY = "c72257e5675c44f3e8f98033205d925d";
     const BASE_URL = "https://api.themoviedb.org/3";
+    
+    let currentId = null;
+    let currentType = null;
+    let currentServer = 1;
+    let tvDetails = null;
 
-    async function fetchSection(endpoint, elementId, type) {
+    async function loadContent(cat, btn) {
+      if(btn) {
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+
+      const area = document.getElementById('displayArea');
+      area.innerHTML = "<p style='text-align:center; padding:20px;'>جاري التحميل...</p>";
+
+      if (cat === 'live') { renderLive(); return; }
+
+      let url = `${BASE_URL}/trending/all/week?api_key=${API_KEY}&language=ar-SA`;
+
+      if (cat === 'drama') url = `${BASE_URL}/discover/tv?api_key=${API_KEY}&with_genres=18&language=ar-SA`;
+      if (cat === 'turkish') url = `${BASE_URL}/discover/tv?api_key=${API_KEY}&with_original_language=tr&language=ar-SA`;
+      if (cat === 'arabic') url = `${BASE_URL}/discover/tv?api_key=${API_KEY}&with_original_language=ar&language=ar-SA`;
+      if (cat === 'action') url = `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=28&language=ar-SA`;
+      if (cat === 'horror') url = `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=27&language=ar-SA`;
+      if (cat === 'comedy') url = `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=35&language=ar-SA`;
+      if (cat === 'anime') url = `${BASE_URL}/discover/tv?api_key=${API_KEY}&with_genres=16&language=ar-SA`;
+      if (cat === 'plays') url = `${BASE_URL}/search/multi?api_key=${API_KEY}&query=${encodeURIComponent("مسرحية")}&language=ar-SA`;
+
       try {
-        const res = await fetch(`${BASE_URL}/${endpoint}?api_key=${API_KEY}&language=ar-SA`);
+        const res = await fetch(url);
         const data = await res.json();
-        renderCards(data.results || [], elementId, type);
-      } catch (e) {
-        document.getElementById(elementId).innerText = "خطأ في تحميل المحتوى";
+        renderGrid(data.results || []);
+      } catch(e) {
+        area.innerHTML = "<p style='text-align:center;'>حدث خطأ في جلب البيانات.</p>";
       }
     }
 
-    function renderCards(items, elementId, defaultType) {
-      const container = document.getElementById(elementId);
-      if (!items || items.length === 0) {
-        container.innerHTML = "<p>لا توجد نتائج</p>";
-        return;
-      }
-      container.innerHTML = items.map(item => {
-        const mediaType = item.media_type || defaultType || (item.title ? 'movie' : 'tv');
+    function renderGrid(items) {
+      const area = document.getElementById('displayArea');
+      if (!items.length) { area.innerHTML = "<p style='text-align:center;'>لا توجد نتائج</p>"; return; }
+
+      area.innerHTML = `<div class="grid-layout">` + items.map(item => {
+        const type = item.title ? 'movie' : 'tv';
         const title = item.title || item.name;
-        const poster = item.poster_path ? `https://image.tmdb.org/t/p/w300${item.poster_path}` : 'https://via.placeholder.com/300x450';
+        const poster = item.poster_path ? `https://image.tmdb.org/t/p/w300${item.poster_path}` : 'https://via.placeholder.com/300x450?text=No+Image';
         return `
-          <div class="card" onclick="playMedia('${item.id}', '${mediaType}', '${title.replace(/'/g, "\\'")}')">
-            <span class="badge"><i class="fa-solid fa-star"></i> ${item.vote_average ? item.vote_average.toFixed(1) : 'N/A'}</span>
+          <div class="card" onclick="openMedia('${item.id}', '${type}', '${title.replace(/'/g, "\\'")}')">
             <img src="${poster}" alt="${title}">
             <div class="card-title">${title}</div>
           </div>
         `;
-      }).join('');
+      }).join('') + `</div>`;
     }
 
-    async function searchApi() {
-      const query = document.getElementById('searchInput').value.trim();
-      if (!query) {
-        init();
-        return;
+    async function searchContent() {
+      const q = document.getElementById('searchInput').value.trim();
+      if(!q) { loadContent('all'); return; }
+      const res = await fetch(`${BASE_URL}/search/multi?api_key=${API_KEY}&query=${encodeURIComponent(q)}&language=ar-SA`);
+      const data = await res.json();
+      renderGrid(data.results || []);
+    }
+
+    function renderLive() {
+      const area = document.getElementById('displayArea');
+      const channels = [
+        { name: "BeIN Sports الإخبارية", url: "https://www.youtube.com/embed/live_stream?channel=UC4i_9WvfPRTuRWEaSpA" },
+        { name: "قناة الجزيرة مباشر", url: "https://www.youtube.com/embed/live_stream?channel=UCfiwzMa-11m685L36261f" }
+      ];
+
+      area.innerHTML = `
+        <div class="section-title">قنوات البث المباشر</div>
+        <div class="grid-layout">
+          ${channels.map(c => `
+            <div class="card" onclick="playLive('${c.url}', '${c.name}')">
+              <div style="height:120px; display:flex; align-items:center; justify-content:center; background:#181c2b;"><i class="fa-solid fa-tv fa-2x" style="color:var(--accent)"></i></div>
+              <div class="card-title">${c.name}</div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    async function openMedia(id, type, title) {
+      currentId = id;
+      currentType = type;
+      document.getElementById('mediaTitle').innerText = title;
+
+      const seriesSelectors = document.getElementById('seriesSelectors');
+
+      if (type === 'tv') {
+        seriesSelectors.style.display = 'flex';
+        // جلب مواسم وحلقات المسلسل الحقيقية بالكامل
+        try {
+          const res = await fetch(`${BASE_URL}/tv/${id}?api_key=${API_KEY}&language=ar-SA`);
+          tvDetails = await res.json();
+          buildSeasonDropdown(tvDetails.seasons || []);
+        } catch(e) {
+          fallbackSeasons();
+        }
+      } else {
+        seriesSelectors.style.display = 'none';
+        updateVideoSrc();
       }
-      try {
-        const res = await fetch(`${BASE_URL}/search/multi?api_key=${API_KEY}&language=ar-SA&query=${encodeURIComponent(query)}`);
-        const data = await res.json();
-        document.getElementById('mainContainer').innerHTML = `
-          <div class="section-header"><i class="fa-solid fa-magnifying-glass"></i> نتائج البحث عن: ${query}</div>
-          <div class="horizontal-scroll" id="search-results" style="flex-wrap: wrap;"></div>
-        `;
-        renderCards(data.results || [], 'search-results', 'movie');
-      } catch (e) {}
+
+      document.getElementById('playerModal').style.display = 'flex';
     }
 
-    function playMedia(id, type, title) {
-      document.getElementById('videoTitle').innerText = title;
-      document.getElementById('videoIframe').src = `https://vidsrc.to/embed/${type}/${id}`;
+    function buildSeasonDropdown(seasons) {
+      const sSelect = document.getElementById('seasonSelect');
+      sSelect.innerHTML = '';
+      
+      const validSeasons = seasons.filter(s => s.season_number > 0);
+      if(!validSeasons.length) { fallbackSeasons(); return; }
+
+      validSeasons.forEach(s => {
+        sSelect.innerHTML += `<option value="${s.season_number}" data-episodes="${s.episode_count}">الموسم ${s.season_number}</option>`;
+      });
+
+      onSeasonChange();
+    }
+
+    function fallbackSeasons() {
+      const sSelect = document.getElementById('seasonSelect');
+      sSelect.innerHTML = '';
+      for(let i=1; i<=10; i++) sSelect.innerHTML += `<option value="${i}" data-episodes="30">الموسم ${i}</option>`;
+      onSeasonChange();
+    }
+
+    function onSeasonChange() {
+      const sSelect = document.getElementById('seasonSelect');
+      const eSelect = document.getElementById('episodeSelect');
+      const selectedOption = sSelect.options[sSelect.selectedIndex];
+      const epCount = selectedOption ? parseInt(selectedOption.getAttribute('data-episodes')) || 24 : 24;
+
+      eSelect.innerHTML = '';
+      for(let i=1; i<=epCount; i++) {
+        eSelect.innerHTML += `<option value="${i}">الحلقة ${i}</option>`;
+      }
+
+      updateVideoSrc();
+    }
+
+    function setServer(srv, btn) {
+      currentServer = srv;
+      document.querySelectorAll('.server-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updateVideoSrc();
+    }
+
+    function updateVideoSrc() {
+      const iframe = document.getElementById('videoIframe');
+      const s = document.getElementById('seasonSelect').value || 1;
+      const e = document.getElementById('episodeSelect').value || 1;
+
+      if (currentType === 'movie') {
+        if(currentServer === 1) iframe.src = `https://vidsrc.pro/embed/movie/${currentId}`;
+        if(currentServer === 2) iframe.src = `https://vidsrc.me/embed/movie?tmdb=${currentId}`;
+        if(currentServer === 3) iframe.src = `https://autoembed.co/movie/tmdb/${currentId}`;
+      } else {
+        if(currentServer === 1) iframe.src = `https://vidsrc.pro/embed/tv/${currentId}/${s}/${e}`;
+        if(currentServer === 2) iframe.src = `https://vidsrc.me/embed/tv?tmdb=${currentId}&season=${s}&episode=${e}`;
+        if(currentServer === 3) iframe.src = `https://autoembed.co/tv/tmdb/${currentId}-${s}-${e}`;
+      }
+    }
+
+    function playLive(url, title) {
+      document.getElementById('mediaTitle').innerText = title;
+      document.getElementById('seriesSelectors').style.display = 'none';
+      document.getElementById('videoIframe').src = url;
       document.getElementById('playerModal').style.display = 'flex';
     }
 
@@ -261,21 +457,7 @@
       document.getElementById('videoIframe').src = '';
     }
 
-    function init() {
-      document.getElementById('mainContainer').innerHTML = `
-        <div class="section-header"><i class="fa-solid fa-fire"></i> أحدث الأفلام</div>
-        <div class="horizontal-scroll" id="trending-movies"></div>
-        <div class="section-header"><i class="fa-solid fa-tv"></i> المسلسلات الشائعة</div>
-        <div class="horizontal-scroll" id="trending-series"></div>
-        <div class="section-header"><i class="fa-solid fa-star"></i> الأعلى تقييماً</div>
-        <div class="horizontal-scroll" id="top-rated"></div>
-      `;
-      fetchSection('trending/movie/week', 'trending-movies', 'movie');
-      fetchSection('trending/tv/week', 'trending-series', 'tv');
-      fetchSection('movie/top_rated', 'top-rated', 'movie');
-    }
-
-    init();
+    loadContent('all');
   </script>
 </body>
 </html>
