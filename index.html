@@ -24,7 +24,6 @@
       padding-bottom: 60px;
     }
 
-    /* Navbar */
     header {
       background: rgba(10, 25, 47, 0.95);
       backdrop-filter: blur(10px);
@@ -49,12 +48,6 @@
 
     .brand span { color: var(--accent-blue); }
 
-    .search-box {
-      position: relative;
-      width: 50%;
-      max-width: 300px;
-    }
-
     .search-box input {
       width: 100%;
       padding: 8px 12px;
@@ -65,7 +58,6 @@
       outline: none;
     }
 
-    /* Main Container */
     .container { padding: 1rem 1.5rem; }
 
     .section-header {
@@ -79,7 +71,6 @@
       padding-right: 10px;
     }
 
-    /* Horizontal Slider */
     .horizontal-scroll {
       display: flex;
       gap: 1rem;
@@ -91,7 +82,6 @@
     .horizontal-scroll::-webkit-scrollbar { height: 5px; }
     .horizontal-scroll::-webkit-scrollbar-thumb { background: var(--accent-blue); border-radius: 10px; }
 
-    /* Cards */
     .card {
       min-width: 140px;
       max-width: 140px;
@@ -138,7 +128,6 @@
       border-radius: 4px;
     }
 
-    /* Player Modal */
     .modal {
       display: none;
       position: fixed;
@@ -183,12 +172,11 @@
   <header>
     <div class="brand"><i class="fa-solid fa-play"></i> Osama<span>TV</span></div>
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="ابحث..." onkeyup="searchContent()">
+      <input type="text" id="searchInput" placeholder="ابحث عن فيلم أو مسلسل..." onkeyup="searchApi()">
     </div>
   </header>
 
   <div class="container" id="mainContainer">
-    
     <div class="section-header"><i class="fa-solid fa-fire"></i> أحدث الأفلام</div>
     <div class="horizontal-scroll" id="trending-movies"></div>
 
@@ -197,10 +185,8 @@
 
     <div class="section-header"><i class="fa-solid fa-star"></i> الأعلى تقييماً</div>
     <div class="horizontal-scroll" id="top-rated"></div>
-
   </div>
 
-  <!-- Player Modal -->
   <div class="modal" id="playerModal">
     <div class="modal-content">
       <div class="modal-header">
@@ -214,34 +200,54 @@
   </div>
 
   <script>
-    let dbData = {};
+    const API_KEY = "c72257e5675c44f3e8f98033205d925d";
+    const BASE_URL = "https://api.themoviedb.org/3";
 
-    async function loadData() {
+    async function fetchSection(endpoint, elementId, type) {
       try {
-        const response = await fetch('./data.json?v=' + new Date().getTime());
-        dbData = await response.json();
-        
-        renderRow('trending-movies', dbData.trending_movies, 'movie');
-        renderRow('trending-series', dbData.trending_series, 'tv');
-        renderRow('top-rated', dbData.top_rated, 'movie');
+        const res = await fetch(`${BASE_URL}/${endpoint}?api_key=${API_KEY}&language=ar-SA`);
+        const data = await res.json();
+        renderCards(data.results || [], elementId, type);
       } catch (e) {
-        console.error("Error loading JSON", e);
+        document.getElementById(elementId).innerText = "خطأ في تحميل المحتوى";
       }
     }
 
-    function renderRow(elementId, items, type) {
+    function renderCards(items, elementId, defaultType) {
       const container = document.getElementById(elementId);
       if (!items || items.length === 0) {
-        container.innerHTML = '<p style="padding:10px; font-size:0.8rem;">جاري جلب البيانات...</p>';
+        container.innerHTML = "<p>لا توجد نتائج</p>";
         return;
       }
-      container.innerHTML = items.map(item => `
-        <div class="card" onclick="playMedia('${item.id}', '${item.title ? 'movie' : 'tv'}', '${(item.title || item.name).replace(/'/g, "\\'")}')">
-          <span class="badge"><i class="fa-solid fa-star"></i> ${item.vote_average ? item.vote_average.toFixed(1) : ''}</span>
-          <img src="https://image.tmdb.org/t/p/w300${item.poster_path}" alt="poster">
-          <div class="card-title">${item.title || item.name}</div>
-        </div>
-      `).join('');
+      container.innerHTML = items.map(item => {
+        const mediaType = item.media_type || defaultType || (item.title ? 'movie' : 'tv');
+        const title = item.title || item.name;
+        const poster = item.poster_path ? `https://image.tmdb.org/t/p/w300${item.poster_path}` : 'https://via.placeholder.com/300x450';
+        return `
+          <div class="card" onclick="playMedia('${item.id}', '${mediaType}', '${title.replace(/'/g, "\\'")}')">
+            <span class="badge"><i class="fa-solid fa-star"></i> ${item.vote_average ? item.vote_average.toFixed(1) : 'N/A'}</span>
+            <img src="${poster}" alt="${title}">
+            <div class="card-title">${title}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function searchApi() {
+      const query = document.getElementById('searchInput').value.trim();
+      if (!query) {
+        init();
+        return;
+      }
+      try {
+        const res = await fetch(`${BASE_URL}/search/multi?api_key=${API_KEY}&language=ar-SA&query=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        document.getElementById('mainContainer').innerHTML = `
+          <div class="section-header"><i class="fa-solid fa-magnifying-glass"></i> نتائج البحث عن: ${query}</div>
+          <div class="horizontal-scroll" id="search-results" style="flex-wrap: wrap;"></div>
+        `;
+        renderCards(data.results || [], 'search-results', 'movie');
+      } catch (e) {}
     }
 
     function playMedia(id, type, title) {
@@ -255,7 +261,21 @@
       document.getElementById('videoIframe').src = '';
     }
 
-    loadData();
+    function init() {
+      document.getElementById('mainContainer').innerHTML = `
+        <div class="section-header"><i class="fa-solid fa-fire"></i> أحدث الأفلام</div>
+        <div class="horizontal-scroll" id="trending-movies"></div>
+        <div class="section-header"><i class="fa-solid fa-tv"></i> المسلسلات الشائعة</div>
+        <div class="horizontal-scroll" id="trending-series"></div>
+        <div class="section-header"><i class="fa-solid fa-star"></i> الأعلى تقييماً</div>
+        <div class="horizontal-scroll" id="top-rated"></div>
+      `;
+      fetchSection('trending/movie/week', 'trending-movies', 'movie');
+      fetchSection('trending/tv/week', 'trending-series', 'tv');
+      fetchSection('movie/top_rated', 'top-rated', 'movie');
+    }
+
+    init();
   </script>
 </body>
 </html>
