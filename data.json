@@ -506,31 +506,8 @@
       "popularity": 318.2955,
       "first_air_date": "2022-08-21",
       "softcore": false,
-      "vote_average": 8.387,
-      "vote_count": 6980,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
-      "id": 113962,
-      "name": "ليونيس",
-      "original_name": "Lioness",
-      "overview": "بينما تسعى (جو) للحفاظ على استقرار حياتها الشخصية والعملية في آن واحد، تواجه العديد من العقبات في حرب المخابرات المركزية ضد الإرهاب، وتستعين بـ(كروز) من قوات المارينز للعمل عميلة سرية لحسابها في إحدى المهمات.",
-      "poster_path": "/iuvropv4Fj1PQM2DSgYYzOtimm2.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        18,
-        10768
-      ],
-      "popularity": 357.5855,
-      "first_air_date": "2023-07-23",
-      "softcore": false,
-      "vote_average": 8.067,
-      "vote_count": 1368,
+      "vote_average": 8.386,
+      "vote_count": 6981,
       "origin_country": [
         "US"
       ]
@@ -560,29 +537,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/hOJqvvhRnSsAEqMaCUuzfdYJajG.jpg",
-      "id": 278624,
-      "name": "Lucky",
-      "original_name": "Lucky",
-      "overview": "عندما تفشل عملية سرقة بملايين الدولارات، تُجبر المحتالة \"لاكي\"،، على الفرار. وبين الهرب من الفيدراليين وزعيم جريمة لا يرحم، تقاتل \"لاكي\" للنجاة بحياتها ولإيجاد مخرج.",
-      "poster_path": "/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        18,
-        80
-      ],
-      "popularity": 100.6323,
-      "first_air_date": "2026-07-14",
-      "softcore": false,
-      "vote_average": 7.306,
-      "vote_count": 147,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
       "backdrop_path": "/jIyEmnBrZtl6SEWyBoMO2hZnzMa.jpg",
       "id": 138502,
       "name": "إكس-مِن ٩٧",
@@ -600,30 +554,7 @@
       "first_air_date": "2024-03-20",
       "softcore": false,
       "vote_average": 8.688,
-      "vote_count": 849,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/gEQkOMmnJcoh9Hh1vk7fpVYnksR.jpg",
-      "id": 97546,
-      "name": "Ted Lasso",
-      "original_name": "Ted Lasso",
-      "overview": "\"جيسون سوديكس\" يؤدي دور \"تيد لاسو\"، مدرب كرة القدم الأمريكية الذي عُيّن مديراً فنياً لفريق كرة قدم إنكليزي رغم افتقاره إلى الخبرة. لكنه يعوّض المعرفة التي تنقصه بتفاؤله وعزيمته القوية… والبسكويت.",
-      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        18,
-        35
-      ],
-      "popularity": 147.8624,
-      "first_air_date": "2020-08-14",
-      "softcore": false,
-      "vote_average": 8.353,
-      "vote_count": 2555,
+      "vote_count": 850,
       "origin_country": [
         "US"
       ]
@@ -654,6 +585,29 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
+      "id": 113962,
+      "name": "ليونيس",
+      "original_name": "Lioness",
+      "overview": "بينما تسعى (جو) للحفاظ على استقرار حياتها الشخصية والعملية في آن واحد، تواجه العديد من العقبات في حرب المخابرات المركزية ضد الإرهاب، وتستعين بـ(كروز) من قوات المارينز للعمل عميلة سرية لحسابها في إحدى المهمات.",
+      "poster_path": "/iuvropv4Fj1PQM2DSgYYzOtimm2.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "popularity": 357.5855,
+      "first_air_date": "2023-07-23",
+      "softcore": false,
+      "vote_average": 8.065,
+      "vote_count": 1368,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
       "backdrop_path": "/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
       "id": 30984,
       "name": "المطهر",
@@ -670,8 +624,8 @@
       "popularity": 115.9162,
       "first_air_date": "2004-10-05",
       "softcore": false,
-      "vote_average": 8.363,
-      "vote_count": 2221,
+      "vote_average": 8.362,
+      "vote_count": 2223,
       "origin_country": [
         "JP"
       ]
@@ -702,68 +656,46 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
-      "id": 309798,
-      "name": "مسيرتي المهنية الرائعة",
-      "original_name": "My Brilliant Career",
-      "overview": "لا تعرف \"سيبيلا\" السكون، وتتمتع بذكاء حاد، وترفض الانصياع لما يفرضه المجتمع، وقد عقدت العزم على أن تتحكم في مسار حياتها بنفسها في زمن لا يُتوقع منها فيه سوى أن تجد زوجًا وتستقر.",
-      "poster_path": "/fhpa8B6USatHybK04XBbPAB6Mlz.jpg",
+      "backdrop_path": "/hOJqvvhRnSsAEqMaCUuzfdYJajG.jpg",
+      "id": 278624,
+      "name": "Lucky",
+      "original_name": "Lucky",
+      "overview": "عندما تفشل عملية سرقة بملايين الدولارات، تُجبر المحتالة \"لاكي\"،، على الفرار. وبين الهرب من الفيدراليين وزعيم جريمة لا يرحم، تقاتل \"لاكي\" للنجاة بحياتها ولإيجاد مخرج.",
+      "poster_path": "/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
       "media_type": "tv",
       "original_language": "en",
       "genre_ids": [
         18,
-        10751
+        80
       ],
-      "popularity": 47.4567,
-      "first_air_date": "2026-08-13",
+      "popularity": 100.6323,
+      "first_air_date": "2026-07-14",
       "softcore": false,
-      "vote_average": 4.6,
-      "vote_count": 19,
-      "origin_country": [
-        "AU"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/xyS9R7Dno812rPLzpN4gJrDUUFd.jpg",
-      "id": 247522,
-      "name": "Tires",
-      "original_name": "Tires",
-      "overview": "",
-      "poster_path": "/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        35
-      ],
-      "popularity": 52.0413,
-      "first_air_date": "2024-05-23",
-      "softcore": false,
-      "vote_average": 6.7,
-      "vote_count": 93,
+      "vote_average": 7.306,
+      "vote_count": 147,
       "origin_country": [
         "US"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/ebLym6w04CzYJBLZScB1rrzm6uY.jpg",
-      "id": 283297,
-      "name": "نقطة سترلينغ",
-      "original_name": "Sterling Point",
-      "overview": "بعد اكتشافها أنها ورثت جزيرة نائية في \"كندا\" من جدها المغترب، الذي لم يُسمح لها بلقائه قط، تقرر \"آني جايكوبسون\" ذات الـ17 عاماً التحري عن الأمر، مما يجرها إلى عالم من الأسرار المدفونة وعلاقة أخوّة غير متوقعة، والتاريخ العائلي المعقّد الذي لم يكن مقدراً لها معرفته.",
-      "poster_path": "/3ri5Rdi8pHYtajZ1IiumDaul0TL.jpg",
+      "backdrop_path": "/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "id": 97546,
+      "name": "Ted Lasso",
+      "original_name": "Ted Lasso",
+      "overview": "\"جيسون سوديكس\" يؤدي دور \"تيد لاسو\"، مدرب كرة القدم الأمريكية الذي عُيّن مديراً فنياً لفريق كرة قدم إنكليزي رغم افتقاره إلى الخبرة. لكنه يعوّض المعرفة التي تنقصه بتفاؤله وعزيمته القوية… والبسكويت.",
+      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "media_type": "tv",
       "original_language": "en",
       "genre_ids": [
-        9648,
-        18
+        18,
+        35
       ],
-      "popularity": 71.6163,
-      "first_air_date": "2026-08-05",
+      "popularity": 147.8624,
+      "first_air_date": "2020-08-14",
       "softcore": false,
-      "vote_average": 8.0,
-      "vote_count": 72,
+      "vote_average": 8.4,
+      "vote_count": 2555,
       "origin_country": [
         "US"
       ]
@@ -790,6 +722,29 @@
       "vote_count": 3855,
       "origin_country": [
         "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
+      "id": 271016,
+      "name": "九门",
+      "original_name": "九门",
+      "overview": "",
+      "poster_path": "/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
+      "media_type": "tv",
+      "original_language": "zh",
+      "genre_ids": [
+        18,
+        10759
+      ],
+      "popularity": 41.8306,
+      "first_air_date": "2026-07-30",
+      "softcore": false,
+      "vote_average": 6.8,
+      "vote_count": 6,
+      "origin_country": [
+        "CN"
       ]
     },
     {
@@ -844,47 +799,70 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/paF9IoqXN3inVb5eR9rxElbpYyb.jpg",
-      "id": 271016,
-      "name": "九门",
-      "original_name": "九门",
-      "overview": "",
-      "poster_path": "/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
+      "backdrop_path": "/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+      "id": 309798,
+      "name": "مسيرتي المهنية الرائعة",
+      "original_name": "My Brilliant Career",
+      "overview": "لا تعرف \"سيبيلا\" السكون، وتتمتع بذكاء حاد، وترفض الانصياع لما يفرضه المجتمع، وقد عقدت العزم على أن تتحكم في مسار حياتها بنفسها في زمن لا يُتوقع منها فيه سوى أن تجد زوجًا وتستقر.",
+      "poster_path": "/fhpa8B6USatHybK04XBbPAB6Mlz.jpg",
       "media_type": "tv",
-      "original_language": "zh",
+      "original_language": "en",
       "genre_ids": [
         18,
-        10759
+        10751
       ],
-      "popularity": 41.8306,
-      "first_air_date": "2026-07-30",
+      "popularity": 47.4567,
+      "first_air_date": "2026-08-13",
       "softcore": false,
-      "vote_average": 6.8,
-      "vote_count": 6,
+      "vote_average": 4.6,
+      "vote_count": 19,
       "origin_country": [
-        "CN"
+        "AU"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/zyAFGC97834c2Ld4xPY02uacdQk.jpg",
-      "id": 287496,
-      "name": "طريق المجد",
-      "original_name": "花开锦绣",
-      "overview": "ملخص: وُلد تشاو لينغ في عالم تهريب الملح القاسي، وهو شاب جريء وشديد الولاء يحلم بمصير أعظم من أصوله المتواضعة. تتقاطع طرقه مع فو تينغيون، وهي سيدة شابة نبيلة اتُهمت زوراً بعلاقة غير مشروعة، فيضطر الاثنان للفرار بحياتهما. وبينما تطاردهما عائلتاهما القويتان والبلاط الإمبراطوري وتختبران صمودهما، يقفان معاً في وجه كل المحن، ويتحديان القدر المرسوم لهما، ويصيغان قصة حب أسطورية مقدر لها أن تدوم.",
-      "poster_path": "/erj7cX8aa1jndO9HlmoyRcJNLQL.jpg",
+      "backdrop_path": "/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
+      "id": 2710,
+      "name": "فيلادلفيا دائِماً مُشمِسة",
+      "original_name": "It's Always Sunny in Philadelphia",
+      "overview": "يحاول أربعة أصدقاء أنانيين يديرون حانة أيرلندية في فيلادلفيا شق طريقهم عبر عالم العمل والعلاقات للبالغين. ولسوء الحظ، فإن وجهات نظرهم المشوهة وأحكامهم الغريبه غالبًا ما تقودهم إلى المشاكل، مما يخلق عددًا لا يحصى من المواقف المربكة التي عادةً ما تزداد سوءًا قبل أن تتحسن.",
+      "poster_path": "/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
       "media_type": "tv",
-      "original_language": "zh",
+      "original_language": "en",
       "genre_ids": [
-        18
+        35
       ],
-      "popularity": 70.4246,
-      "first_air_date": "2026-08-09",
+      "popularity": 70.1812,
+      "first_air_date": "2005-08-04",
       "softcore": false,
-      "vote_average": 9.0,
-      "vote_count": 2,
+      "vote_average": 8.257,
+      "vote_count": 1385,
       "origin_country": [
-        "CN"
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mp2AFsWsuyxCzenJh3DTKw7z4jG.jpg",
+      "id": 291496,
+      "name": "حب كحلوى التوفي",
+      "original_name": "이런 엿같은 사랑",
+      "overview": "تفقد مدّعية عامة طموحة ذاكرتها، وتنتقل للعيش مع مدرب ملاكمة يدّعي أنه حبيبها. فهل يمكن أن يتحول هذا الوضع الحرج إلى حب حقيقي؟",
+      "poster_path": "/s4QHevjGTGN3qfnA4TjkRVMGq8n.jpg",
+      "media_type": "tv",
+      "original_language": "ko",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "popularity": 124.6849,
+      "first_air_date": "2026-08-07",
+      "softcore": false,
+      "vote_average": 8.556,
+      "vote_count": 45,
+      "origin_country": [
+        "KR"
       ]
     },
     {
@@ -910,6 +888,29 @@
       "vote_count": 120,
       "origin_country": [
         "CN"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
+      "id": 298168,
+      "name": "The Shards",
+      "original_name": "The Shards",
+      "overview": "",
+      "poster_path": "/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "popularity": 52.7849,
+      "first_air_date": "2026-08-05",
+      "softcore": false,
+      "vote_average": 7.519,
+      "vote_count": 27,
+      "origin_country": [
+        "US"
       ]
     }
   ],
