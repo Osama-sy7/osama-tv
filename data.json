@@ -2,50 +2,6 @@
   "trending_movies": [
     {
       "adult": false,
-      "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
-      "id": 969681,
-      "title": "سبايدر-مان: يوم جديد",
-      "original_title": "Spider-Man: Brand New Day",
-      "overview": "بينما يواصل \"بيتر باركر\" حماية المدينة بصفته \"الرجل العنكبوت\" في عالمٍ لم يعد يتذكره أحد، يجد نفسه وحيدًا وهو يشاهد أصدقاءه القدامى يمضون في حياتهم من دونه. ومع تصاعد الضغوط، يبدأ بالتغير بطريقة قد تعجز قواه عن كبحها. لكن هذا التحول قد يكون أمله الوحيد لمواجهة تهديدٍ غامض وخطير يلوح في الأفق، عدو يمتلك قوة مرعبة لا يستطيع أحد حتى رؤيته، ويهدد المدينة وكل من يهتم \"بيتر\" لأمرهم.",
-      "poster_path": "/yskgiN1W74nY2DFky4ncuxPbj2J.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        878,
-        28,
-        12
-      ],
-      "popularity": 1872.4338,
-      "release_date": "2026-07-29",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.884,
-      "vote_count": 1940
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/bs32Ds4L8VADGjBVasSK1ASU7OW.jpg",
-      "id": 950028,
-      "title": "الدعوة",
-      "original_title": "The Invite",
-      "overview": "زواج \"جو\" و\"أنجيلا\" على وشك الانهيار. عندما يدعوان جارَيهما الغامضَين في الطابق العلوي إلى حفل عشاء، تأخذ الليلة منحى غير متوقع. فهل أعادا إشعال شرارة الحب بينهما، أم أشعلا الفتيل الذي سيحرق كل شيء؟",
-      "poster_path": "/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        35,
-        18,
-        10749
-      ],
-      "popularity": 100.7257,
-      "release_date": "2026-06-25",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.376,
-      "vote_count": 274
-    },
-    {
-      "adult": false,
       "backdrop_path": "/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg",
       "id": 1084244,
       "title": "حكاية لعبة ٥",
@@ -60,12 +16,34 @@
         35,
         12
       ],
-      "popularity": 388.1231,
+      "popularity": 373.2636,
       "release_date": "2026-06-17",
       "softcore": false,
       "video": false,
-      "vote_average": 7.873,
-      "vote_count": 1107
+      "vote_average": 7.981,
+      "vote_count": 1222
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
+      "id": 969681,
+      "title": "سبايدر-مان: يوم جديد",
+      "original_title": "Spider-Man: Brand New Day",
+      "overview": "بينما يواصل \"بيتر باركر\" حماية المدينة بصفته \"الرجل العنكبوت\" في عالمٍ لم يعد يتذكره أحد، يجد نفسه وحيدًا وهو يشاهد أصدقاءه القدامى يمضون في حياتهم من دونه. ومع تصاعد الضغوط، يبدأ بالتغير بطريقة قد تعجز قواه عن كبحها. لكن هذا التحول قد يكون أمله الوحيد لمواجهة تهديدٍ غامض وخطير يلوح في الأفق، عدو يمتلك قوة مرعبة لا يستطيع أحد حتى رؤيته، ويهدد المدينة وكل من يهتم \"بيتر\" لأمرهم.",
+      "poster_path": "/yskgiN1W74nY2DFky4ncuxPbj2J.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "popularity": 1819.537,
+      "release_date": "2026-07-29",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.886,
+      "vote_count": 1982
     },
     {
       "adult": false,
@@ -82,12 +60,12 @@
         28,
         14
       ],
-      "popularity": 778.47,
+      "popularity": 684.2902,
       "release_date": "2026-07-15",
       "softcore": false,
       "video": false,
-      "vote_average": 7.982,
-      "vote_count": 2962
+      "vote_average": 7.988,
+      "vote_count": 3002
     },
     {
       "adult": false,
@@ -106,12 +84,54 @@
         10751,
         14
       ],
-      "popularity": 288.8608,
+      "popularity": 251.4252,
       "release_date": "2026-06-24",
       "softcore": false,
       "video": false,
-      "vote_average": 7.5,
-      "vote_count": 749
+      "vote_average": 7.496,
+      "vote_count": 770
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
+      "id": 1288445,
+      "title": "Mutiny",
+      "original_title": "Mutiny",
+      "overview": "تبدأ القصة عندما يتم توريط كول، عميل سابق في القوات الخاصة وضابط شرطة سابق في مدينة نيويورك، في جريمة قتل رجل أعمال ملياردير، ويُتهم كول بقتل صديقه ورئيسه، تيبو، الذي وظف كول كخبير أمني خاص له ، فيضطر للهرب لإثبات براءته والكشف عن مؤامرة دولية.",
+      "poster_path": "/pVMxkaViouALWwc1EdZBaiZJTxJ.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "popularity": 229.9234,
+      "release_date": "2026-08-19",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 40
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "id": 1339713,
+      "title": "هوس",
+      "original_title": "Obsession",
+      "overview": "بعد أن كسر غصنًا من ’صفصافة الأمنية الواحدة‘ الغامضة ليفوز بقلب الفتاة التي يعشقها، يجد رومانسي يائس نفسه يحصل على ما طلب تمامًا، لكنه سرعان ما يكتشف أن بعض الرغبات تأتي بثمن باهظ ومظلم",
+      "poster_path": "/qukypUmPwd21UnNTRvUdZHd4pNJ.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "popularity": 235.136,
+      "release_date": "2026-05-13",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.227,
+      "vote_count": 4872
     },
     {
       "adult": false,
@@ -128,164 +148,12 @@
         9648,
         53
       ],
-      "popularity": 217.1636,
+      "popularity": 183.4236,
       "release_date": "2026-08-12",
       "softcore": false,
       "video": false,
-      "vote_average": 6.504,
-      "vote_count": 253
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "id": 687163,
-      "title": "مشروع هيل ماري",
-      "original_title": "Project Hail Mary",
-      "overview": "يستيقظ رايلاند غريس، مدرس العلوم، على متن مركبة فضائية تبعد سنوات ضوئية عن موطنه، فاقدًا للذاكرة تمامًا، لا يتذكر من هو ولا كيف وصل إلى هناك. ومع عودة ذاكرته تدريجيًا، يبدأ في اكتشاف مهمته: حل لغز المادة الغامضة التي تتسبب في انطفاء الشمس. عليه أن يستعين بمعرفته العلمية وأفكاره غير التقليدية لإنقاذ كل شيء على الأرض من الفناء... لكن صداقة غير متوقعة تعني أنه قد لا يضطر إلى القيام بذلك بمفرده.",
-      "poster_path": "/wNnoJaRb5Oc9SodTWJLEC26wL8q.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        878,
-        12
-      ],
-      "popularity": 127.2495,
-      "release_date": "2026-03-15",
-      "softcore": false,
-      "video": false,
-      "vote_average": 8.7,
-      "vote_count": 7176
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
-      "id": 1083381,
-      "title": "الغرفة الخلفية",
-      "original_title": "Backrooms",
-      "overview": "يظهر مدخل غريب في الطابق السفلي من صالة عرض الأثاث",
-      "poster_path": "/9FZaaQstyvpmmK1sHOwU39ijtCO.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        27,
-        9648,
-        878
-      ],
-      "popularity": 131.2784,
-      "release_date": "2026-05-27",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.095,
-      "vote_count": 2851
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-      "id": 1504358,
-      "title": "لا تقل حظًا موفقًا",
-      "original_title": "Don't Say Good Luck",
-      "overview": "تبدو \"صوفي بيرنبام\" مستعدة تمامًا لخطف الأنظار بأداء دور البطولة في المسرحية الغنائية لمدرستها الثانوية... إلى أن تواجه فجأة مشاكل عائلية تفوق ما تعيشه على خشبة المسرح.",
-      "poster_path": "/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        35,
-        10402,
-        18
-      ],
-      "popularity": 68.7627,
-      "release_date": "2026-08-13",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.0,
-      "vote_count": 36
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
-      "id": 1339713,
-      "title": "هوس",
-      "original_title": "Obsession",
-      "overview": "بعد أن كسر غصنًا من ’صفصافة الأمنية الواحدة‘ الغامضة ليفوز بقلب الفتاة التي يعشقها، يجد رومانسي يائس نفسه يحصل على ما طلب تمامًا، لكنه سرعان ما يكتشف أن بعض الرغبات تأتي بثمن باهظ ومظلم",
-      "poster_path": "/qukypUmPwd21UnNTRvUdZHd4pNJ.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        27,
-        53
-      ],
-      "popularity": 238.3554,
-      "release_date": "2026-05-13",
-      "softcore": false,
-      "video": false,
-      "vote_average": 8.226,
-      "vote_count": 4839
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
-      "id": 1081003,
-      "title": "سوبرجيرل",
-      "original_title": "Supergirl",
-      "overview": "عندما يوجّه عدوّ قاسٍ ولا يرحم ضربة مؤلمة تمسّ حياتها بشكل شخصي، تجد \"كارا زور-إل\"، المعروفة باسم سوبرجيرل، نفسها مضطرة للتعاون مع رفيق غير متوقع. وتنطلق معه في رحلة ملحمية عبر الفضاء، تسعى خلالها إلى الانتقام وتحقيق العدالة.",
-      "poster_path": "/qdSh923DHzTh9vWz4pGTbYpkXIy.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
-      "popularity": 138.8174,
-      "release_date": "2026-06-24",
-      "softcore": false,
-      "video": false,
-      "vote_average": 6.746,
-      "vote_count": 1944
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-      "id": 1003596,
-      "title": "المنتقمون: يوم القيامة",
-      "original_title": "Avengers: Doomsday",
-      "overview": "أبطال محبوبون من ثلاثة أكوان مختلفة يُدفعون نحو صدام مميت، ويواجهون تهديدًا مرعبًا قد يمحو وجودهم بالكامل… شيء يفوق كل ما عرفوه من قبل.",
-      "poster_path": "/bSkYB5VNl2tas9SKjXMUtE2gBPG.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        878,
-        28,
-        12
-      ],
-      "popularity": 118.2699,
-      "release_date": "2026-12-16",
-      "softcore": false,
-      "video": false,
-      "vote_average": 0.0,
-      "vote_count": 0
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/9XwQphZxNJgGASfjL58mhIkJJpf.jpg",
-      "id": 1280738,
-      "title": "الغاضبون",
-      "original_title": "火遮眼",
-      "overview": "بعد أن خُطفت ابنته من الشارع، يبدأ صاحب متجر (شيه مياو) في تتبع شبكة إجرامية معقدة، مستخدماً كل الطرق والوسائل الممكنة لاستعادة ابنته.  حليفه الوحيد في هذه الرحلة هو صحفي (جو تاسليم)؛ حيث يتعين على هذين الشخصين القادمين من خلفيات مختلفة تماماً أن يتعلما كيف يثقا ببعضهما ويتعاونا معاً، مستغلين مهارات قتالية منحتها لهما أسرار ماضيهما الغامض.",
-      "poster_path": "/twehTxCQx3zBbrGiZjWfcLAuajt.jpg",
-      "media_type": "movie",
-      "original_language": "zh",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 90.7448,
-      "release_date": "2026-06-10",
-      "softcore": false,
-      "video": false,
-      "vote_average": 8.086,
-      "vote_count": 562
+      "vote_average": 6.465,
+      "vote_count": 274
     },
     {
       "adult": false,
@@ -302,12 +170,77 @@
         878,
         53
       ],
-      "popularity": 243.5797,
+      "popularity": 196.9512,
       "release_date": "2026-08-06",
       "softcore": false,
       "video": false,
-      "vote_average": 6.911,
-      "vote_count": 887
+      "vote_average": 6.912,
+      "vote_count": 912
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+      "id": 1003596,
+      "title": "المنتقمون: يوم القيامة",
+      "original_title": "Avengers: Doomsday",
+      "overview": "أبطال محبوبون من ثلاثة أكوان مختلفة يُدفعون نحو صدام مميت، ويواجهون تهديدًا مرعبًا قد يمحو وجودهم بالكامل… شيء يفوق كل ما عرفوه من قبل.",
+      "poster_path": "/bSkYB5VNl2tas9SKjXMUtE2gBPG.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "popularity": 121.9952,
+      "release_date": "2026-12-16",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+      "id": 950028,
+      "title": "الدعوة",
+      "original_title": "The Invite",
+      "overview": "زواج \"جو\" و\"أنجيلا\" على وشك الانهيار. عندما يدعوان جارَيهما الغامضَين في الطابق العلوي إلى حفل عشاء، تأخذ الليلة منحى غير متوقع. فهل أعادا إشعال شرارة الحب بينهما، أم أشعلا الفتيل الذي سيحرق كل شيء؟",
+      "poster_path": "/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "popularity": 80.8835,
+      "release_date": "2026-06-25",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.382,
+      "vote_count": 283
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hD8y787ciNWQ2bn396YrSsOIzdN.jpg",
+      "id": 1291595,
+      "title": "Insidious: Out of the Further",
+      "original_title": "Insidious: Out of the Further",
+      "overview": "",
+      "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "popularity": 59.0625,
+      "release_date": "2026-08-19",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.269,
+      "vote_count": 13
     },
     {
       "adult": false,
@@ -323,77 +256,37 @@
         10402,
         35,
         18,
-        10770
+        10770,
+        10749
       ],
-      "popularity": 83.3879,
+      "popularity": 74.1587,
       "release_date": "2026-08-13",
       "softcore": false,
       "video": false,
-      "vote_average": 6.292,
-      "vote_count": 65
+      "vote_average": 6.3,
+      "vote_count": 70
     },
     {
       "adult": false,
-      "backdrop_path": "/wFKDH8nAz7l9iyVobjcNAPTrkNz.jpg",
-      "id": 1228710,
-      "title": "الماندالوري وغروغو",
-      "original_title": "The Mandalorian and Grogu",
-      "overview": "سقطت الإمبراطورية الشريرة، لكن لا يزال قادة الحرب الإمبراطوريون متفرقين في أنحاء المجرة. وبينما تعمل الجمهورية الجديدة الناشئة على حماية كل ما قاتلت من أجله الثورة، تستعين بخدمات صائد الجوائز الماندالوري الأسطوري \"دين جارين\" ومتدربه الصغير \"غروغو\".",
-      "poster_path": "/o6O7sYBgDligQAdVHDkmcyjePU.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
-      "popularity": 61.189,
-      "release_date": "2026-05-20",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.505,
-      "vote_count": 1304
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
-      "id": 1433367,
-      "title": "One Night Only",
-      "original_title": "One Night Only",
-      "overview": "",
-      "poster_path": "/9LGEqZvzI7Tsosf8srwEY48rZsD.jpg",
+      "backdrop_path": "/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+      "id": 1504358,
+      "title": "لا تقل حظًا موفقًا",
+      "original_title": "Don't Say Good Luck",
+      "overview": "تبدو \"صوفي بيرنبام\" مستعدة تمامًا لخطف الأنظار بأداء دور البطولة في المسرحية الغنائية لمدرستها الثانوية... إلى أن تواجه فجأة مشاكل عائلية تفوق ما تعيشه على خشبة المسرح.",
+      "poster_path": "/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
       "media_type": "movie",
       "original_language": "en",
       "genre_ids": [
         35,
-        10749
+        10402,
+        18
       ],
-      "popularity": 26.0083,
-      "release_date": "2026-07-28",
+      "popularity": 57.0413,
+      "release_date": "2026-08-13",
       "softcore": false,
       "video": false,
-      "vote_average": 6.806,
-      "vote_count": 31
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-      "id": 1212763,
-      "title": "احتراق الشر المميت",
-      "original_title": "Evil Dead Burn",
-      "overview": "بعد وفاة زوجها المفاجئة، تلجأ امرأة إلى أهل زوجها طلباً للعزاء. وبينما يتحولون إلى موتى أحياء واحداً تلو الآخر، تكتشف أن العهود التي قطعتها على نفسها في الحياة تبقى قائمة حتى بعد الموت",
-      "poster_path": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        27
-      ],
-      "popularity": 169.309,
-      "release_date": "2026-07-07",
-      "softcore": false,
-      "video": false,
-      "vote_average": 7.868,
-      "vote_count": 1175
+      "vote_average": 7.0,
+      "vote_count": 40
     },
     {
       "adult": false,
@@ -409,33 +302,140 @@
         878,
         53
       ],
-      "popularity": 175.2468,
+      "popularity": 160.9101,
       "release_date": "2026-06-10",
       "softcore": false,
       "video": false,
-      "vote_average": 7.456,
-      "vote_count": 2893
+      "vote_average": 7.458,
+      "vote_count": 2916
     },
     {
       "adult": false,
-      "backdrop_path": "/jUdV706J4d3nUEbfimqVnGZqTbW.jpg",
-      "id": 1288445,
-      "title": "Mutiny",
-      "original_title": "Mutiny",
-      "overview": "تبدأ القصة عندما يتم توريط كول، عميل سابق في القوات الخاصة وضابط شرطة سابق في مدينة نيويورك، في جريمة قتل رجل أعمال ملياردير، ويُتهم كول بقتل صديقه ورئيسه، تيبو، الذي وظف كول كخبير أمني خاص له ، فيضطر للهرب لإثبات براءته والكشف عن مؤامرة دولية.",
-      "poster_path": "/4zWwbVV31Qss578iJdVECyhMslB.jpg",
+      "backdrop_path": "/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+      "id": 1083381,
+      "title": "الغرفة الخلفية",
+      "original_title": "Backrooms",
+      "overview": "يظهر مدخل غريب في الطابق السفلي من صالة عرض الأثاث",
+      "poster_path": "/9FZaaQstyvpmmK1sHOwU39ijtCO.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        9648,
+        878
+      ],
+      "popularity": 129.2423,
+      "release_date": "2026-05-27",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.095,
+      "vote_count": 2863
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
+      "id": 1081003,
+      "title": "سوبرجيرل",
+      "original_title": "Supergirl",
+      "overview": "عندما يوجّه عدوّ قاسٍ ولا يرحم ضربة مؤلمة تمسّ حياتها بشكل شخصي، تجد \"كارا زور-إل\"، المعروفة باسم سوبرجيرل، نفسها مضطرة للتعاون مع رفيق غير متوقع. وتنطلق معه في رحلة ملحمية عبر الفضاء، تسعى خلالها إلى الانتقام وتحقيق العدالة.",
+      "poster_path": "/qdSh923DHzTh9vWz4pGTbYpkXIy.jpg",
       "media_type": "movie",
       "original_language": "en",
       "genre_ids": [
         28,
-        53
+        12,
+        878
       ],
-      "popularity": 30.1536,
-      "release_date": "2026-08-19",
+      "popularity": 125.9382,
+      "release_date": "2026-06-24",
       "softcore": false,
       "video": false,
-      "vote_average": 7.75,
-      "vote_count": 16
+      "vote_average": 6.751,
+      "vote_count": 1962
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "id": 687163,
+      "title": "مشروع هيل ماري",
+      "original_title": "Project Hail Mary",
+      "overview": "يستيقظ رايلاند غريس، مدرس العلوم، على متن مركبة فضائية تبعد سنوات ضوئية عن موطنه، فاقدًا للذاكرة تمامًا، لا يتذكر من هو ولا كيف وصل إلى هناك. ومع عودة ذاكرته تدريجيًا، يبدأ في اكتشاف مهمته: حل لغز المادة الغامضة التي تتسبب في انطفاء الشمس. عليه أن يستعين بمعرفته العلمية وأفكاره غير التقليدية لإنقاذ كل شيء على الأرض من الفناء... لكن صداقة غير متوقعة تعني أنه قد لا يضطر إلى القيام بذلك بمفرده.",
+      "poster_path": "/wNnoJaRb5Oc9SodTWJLEC26wL8q.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "popularity": 121.372,
+      "release_date": "2026-03-15",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.7,
+      "vote_count": 7203
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
+      "id": 1212763,
+      "title": "احتراق الشر المميت",
+      "original_title": "Evil Dead Burn",
+      "overview": "بعد وفاة زوجها المفاجئة، تلجأ امرأة إلى أهل زوجها طلباً للعزاء. وبينما يتحولون إلى موتى أحياء واحداً تلو الآخر، تكتشف أن العهود التي قطعتها على نفسها في الحياة تبقى قائمة حتى بعد الموت",
+      "poster_path": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27
+      ],
+      "popularity": 149.3819,
+      "release_date": "2026-07-07",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.873,
+      "vote_count": 1189
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9XwQphZxNJgGASfjL58mhIkJJpf.jpg",
+      "id": 1280738,
+      "title": "الغاضبون",
+      "original_title": "火遮眼",
+      "overview": "بعد أن خُطفت ابنته من الشارع، يبدأ صاحب متجر (شيه مياو) في تتبع شبكة إجرامية معقدة، مستخدماً كل الطرق والوسائل الممكنة لاستعادة ابنته.  حليفه الوحيد في هذه الرحلة هو صحفي (جو تاسليم)؛ حيث يتعين على هذين الشخصين القادمين من خلفيات مختلفة تماماً أن يتعلما كيف يثقا ببعضهما ويتعاونا معاً، مستغلين مهارات قتالية منحتها لهما أسرار ماضيهما الغامض.",
+      "poster_path": "/twehTxCQx3zBbrGiZjWfcLAuajt.jpg",
+      "media_type": "movie",
+      "original_language": "zh",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "popularity": 80.1077,
+      "release_date": "2026-06-10",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.104,
+      "vote_count": 573
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+      "id": 1433367,
+      "title": "One Night Only",
+      "original_title": "One Night Only",
+      "overview": "",
+      "poster_path": "/9LGEqZvzI7Tsosf8srwEY48rZsD.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "popularity": 25.3631,
+      "release_date": "2026-07-28",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.848,
+      "vote_count": 33
     }
   ],
   "trending_series": [
@@ -454,11 +454,11 @@
         9648,
         10765
       ],
-      "popularity": 272.8087,
+      "popularity": 271.8148,
       "first_air_date": "2026-08-16",
       "softcore": false,
-      "vote_average": 8.11,
-      "vote_count": 105,
+      "vote_average": 8.072,
+      "vote_count": 118,
       "origin_country": [
         "US"
       ]
@@ -475,37 +475,13 @@
       "original_language": "en",
       "genre_ids": [
         10759,
-        18,
         80
       ],
-      "popularity": 637.7978,
+      "popularity": 659.7644,
       "first_air_date": "2022-02-03",
       "softcore": false,
-      "vote_average": 8.085,
-      "vote_count": 3091,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
-      "id": 125988,
-      "name": "Silo",
-      "original_name": "Silo",
-      "overview": "في مستقبل خرب وسامّ، يعيش آلاف الناس في صومعة ضخمة تحت الأرض. بعد أن يخرق مأمورهم قانونها الأساسي ويموت المواطنون بطرق غامضة، تبدأ المهندسة \"جولييت\" بكشف أسرار صادمة لتعرف الحقيقة عن الصومعة.",
-      "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        10765,
-        18
-      ],
-      "popularity": 237.1217,
-      "first_air_date": "2023-05-04",
-      "softcore": false,
-      "vote_average": 8.189,
-      "vote_count": 2457,
+      "vote_average": 8.084,
+      "vote_count": 3095,
       "origin_country": [
         "US"
       ]
@@ -525,11 +501,34 @@
         18,
         10759
       ],
-      "popularity": 286.2645,
+      "popularity": 268.7605,
       "first_air_date": "2022-08-21",
       "softcore": false,
-      "vote_average": 8.386,
-      "vote_count": 6994,
+      "vote_average": 8.4,
+      "vote_count": 7000,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
+      "id": 125988,
+      "name": "Silo",
+      "original_name": "Silo",
+      "overview": "في مستقبل خرب وسامّ، يعيش آلاف الناس في صومعة ضخمة تحت الأرض. بعد أن يخرق مأمورهم قانونها الأساسي ويموت المواطنون بطرق غامضة، تبدأ المهندسة \"جولييت\" بكشف أسرار صادمة لتعرف الحقيقة عن الصومعة.",
+      "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "popularity": 232.4461,
+      "first_air_date": "2023-05-04",
+      "softcore": false,
+      "vote_average": 8.191,
+      "vote_count": 2464,
       "origin_country": [
         "US"
       ]
@@ -548,11 +547,11 @@
         18,
         80
       ],
-      "popularity": 137.8792,
+      "popularity": 130.7669,
       "first_air_date": "2026-07-14",
       "softcore": false,
-      "vote_average": 7.242,
-      "vote_count": 165,
+      "vote_average": 7.201,
+      "vote_count": 177,
       "origin_country": [
         "US"
       ]
@@ -571,11 +570,11 @@
         18,
         35
       ],
-      "popularity": 168.7456,
+      "popularity": 179.4465,
       "first_air_date": "2020-08-14",
       "softcore": false,
-      "vote_average": 8.4,
-      "vote_count": 2565,
+      "vote_average": 8.359,
+      "vote_count": 2569,
       "origin_country": [
         "US"
       ]
@@ -594,37 +593,13 @@
         18,
         10768
       ],
-      "popularity": 359.4068,
+      "popularity": 336.7935,
       "first_air_date": "2023-07-23",
       "softcore": false,
-      "vote_average": 8.075,
-      "vote_count": 1375,
+      "vote_average": 8.074,
+      "vote_count": 1378,
       "origin_country": [
         "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
-      "id": 215072,
-      "name": "متجر للقتلة",
-      "original_name": "킬러들의 쇼핑몰",
-      "overview": "تضحى حياتها متاهة من الغموض غداة الانتحار المزعوم لعمّها، إذ ينهال عليها وابل من الرصاص تارة وتُحاصر بطائرات مُسيّرة للقتل تارّة، وللنجاة يتعين عليها كشف طلاسم وفاة عمّها وسبب استهدافها بلا رحمة من كلّ جانب.",
-      "poster_path": "/AvrBbDO8Fhtcey94877eqOg1VOn.jpg",
-      "media_type": "tv",
-      "original_language": "ko",
-      "genre_ids": [
-        18,
-        10759,
-        9648
-      ],
-      "popularity": 79.0424,
-      "first_air_date": "2024-01-17",
-      "softcore": false,
-      "vote_average": 8.435,
-      "vote_count": 222,
-      "origin_country": [
-        "KR"
       ]
     },
     {
@@ -642,11 +617,11 @@
         35,
         10765
       ],
-      "popularity": 139.8838,
+      "popularity": 133.3792,
       "first_air_date": "1999-03-28",
       "softcore": false,
       "vote_average": 8.363,
-      "vote_count": 3856,
+      "vote_count": 3860,
       "origin_country": [
         "US"
       ]
@@ -666,10 +641,10 @@
         16,
         10765
       ],
-      "popularity": 124.0551,
+      "popularity": 118.9692,
       "first_air_date": "2004-10-05",
       "softcore": false,
-      "vote_average": 8.4,
+      "vote_average": 8.364,
       "vote_count": 2225,
       "origin_country": [
         "JP"
@@ -690,81 +665,34 @@
         35,
         16
       ],
-      "popularity": 46.8398,
+      "popularity": 50.1522,
       "first_air_date": "1999-10-20",
       "softcore": false,
-      "vote_average": 8.8,
-      "vote_count": 5490,
+      "vote_average": 8.75,
+      "vote_count": 5492,
       "origin_country": [
         "JP"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/jIyEmnBrZtl6SEWyBoMO2hZnzMa.jpg",
-      "id": 138502,
-      "name": "إكس-مِن ٩٧",
-      "original_name": "X-Men '97",
-      "overview": "تستخدم مجموعة من المتحولين مواهبها غير الطبيعية لحماية عالم يكرههم ويخافهم.",
-      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+      "backdrop_path": "/onmoNgDVqDJO75eQ93FFyflbJLl.jpg",
+      "id": 100757,
+      "name": "ضفاف كارولينا",
+      "original_name": "Outer Banks",
+      "overview": "على جزيرة في \"كارولينا الشمالية\" يقطنها الأغنياء والطبقة العاملة الكادحة، يعيش \"جون بي\" وفريقه المتكاتف من الأصدقاء أجواء الغموض والمغامرة خلال البحث عن كنز مفقود.",
+      "poster_path": "/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
       "media_type": "tv",
       "original_language": "en",
       "genre_ids": [
-        16,
         10759,
-        10765
+        9648
       ],
-      "popularity": 79.0321,
-      "first_air_date": "2024-03-20",
+      "popularity": 175.0752,
+      "first_air_date": "2020-04-15",
       "softcore": false,
-      "vote_average": 8.689,
-      "vote_count": 851,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/ebLym6w04CzYJBLZScB1rrzm6uY.jpg",
-      "id": 283297,
-      "name": "نقطة سترلينغ",
-      "original_name": "Sterling Point",
-      "overview": "بعد اكتشافها أنها ورثت جزيرة نائية في \"كندا\" من جدها المغترب، الذي لم يُسمح لها بلقائه قط، تقرر \"آني جايكوبسون\" ذات الـ17 عاماً التحري عن الأمر، مما يجرها إلى عالم من الأسرار المدفونة وعلاقة أخوّة غير متوقعة، والتاريخ العائلي المعقّد الذي لم يكن مقدراً لها معرفته.",
-      "poster_path": "/3ri5Rdi8pHYtajZ1IiumDaul0TL.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        9648,
-        18
-      ],
-      "popularity": 65.7514,
-      "first_air_date": "2026-08-05",
-      "softcore": false,
-      "vote_average": 8.0,
-      "vote_count": 75,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
-      "id": 103516,
-      "name": "ستار تريك: عوالم جديدة غريبة",
-      "original_name": "Star Trek: Strange New Worlds",
-      "overview": "تابع قصة Christopher Pike و Spock و Number One قبل سنوات من وصول الكابتن Kirk إلى U.S.S. Enterprise ، وهم يستكشفون عوالم جديدة حول المجرة.  تقع أحداث القصة قبل مسلسل Star Trek: The Original Series و Star Trek: Discovery.",
-      "poster_path": "/bATm9ZqdkPGizpO9YGCm1E98XV3.jpg",
-      "media_type": "tv",
-      "original_language": "en",
-      "genre_ids": [
-        10765,
-        18
-      ],
-      "popularity": 54.6723,
-      "first_air_date": "2022-05-05",
-      "softcore": false,
-      "vote_average": 7.908,
-      "vote_count": 814,
+      "vote_average": 8.3,
+      "vote_count": 1231,
       "origin_country": [
         "US"
       ]
@@ -786,60 +714,61 @@
         10759,
         10765
       ],
-      "popularity": 92.228,
+      "popularity": 100.2824,
       "first_air_date": "2016-04-04",
       "softcore": false,
-      "vote_average": 8.1,
-      "vote_count": 756,
+      "vote_average": 8.079,
+      "vote_count": 758,
       "origin_country": [
         "JP"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/aasp5EmwclAQbwfGABWLTNLhjwB.jpg",
-      "id": 387,
-      "name": "سبونج بوب سكوير بانتس",
-      "original_name": "SpongeBob SquarePants",
-      "overview": "في أعماق المحيط الهادئ في مدينة قاع الهامور يعيش اسفنجة مربعة صفراء اسمها سبونج بوب سكوير بانتس. سبونج بوب يعيش في أناناس مع حلزون حيوانه الأليف ، غاري ، يحب وظيفته كطاهي قلي في مقرمشات سلطع ، ولديه موهبة في الوقوع في جميع أنواع المشاكل دون أن يحاول حقًا. عندما لا يثير أعصاب جاره شفيع الغريب في الجوار ، يمكن أن تجد سبونج بوب عادة في وسط كل أنواع المواقف الغريبة مع صديقه المفضل ، نجم البحر بسيط ، أو راكبة الامواج تبحث عن الإثارة- الفتاة السنجاب بال ، ساندي تشيكس.",
-      "poster_path": "/8vDD2MdSJAKLO63FYiSwmbi5rXh.jpg",
+      "backdrop_path": "/jIyEmnBrZtl6SEWyBoMO2hZnzMa.jpg",
+      "id": 138502,
+      "name": "إكس-مِن ٩٧",
+      "original_name": "X-Men '97",
+      "overview": "تستخدم مجموعة من المتحولين مواهبها غير الطبيعية لحماية عالم يكرههم ويخافهم.",
+      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
       "media_type": "tv",
       "original_language": "en",
       "genre_ids": [
         16,
-        35,
-        10751
+        10759,
+        10765
       ],
-      "popularity": 19.0306,
-      "first_air_date": "1999-05-01",
+      "popularity": 74.9121,
+      "first_air_date": "2024-03-20",
       "softcore": false,
-      "vote_average": 7.7,
-      "vote_count": 3253,
+      "vote_average": 8.691,
+      "vote_count": 852,
       "origin_country": [
         "US"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
-      "id": 309798,
-      "name": "مسيرتي المهنية الرائعة",
-      "original_name": "My Brilliant Career",
-      "overview": "لا تعرف \"سيبيلا\" السكون، وتتمتع بذكاء حاد، وترفض الانصياع لما يفرضه المجتمع، وقد عقدت العزم على أن تتحكم في مسار حياتها بنفسها في زمن لا يُتوقع منها فيه سوى أن تجد زوجًا وتستقر.",
-      "poster_path": "/fhpa8B6USatHybK04XBbPAB6Mlz.jpg",
+      "backdrop_path": "/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
+      "id": 215072,
+      "name": "متجر للقتلة",
+      "original_name": "킬러들의 쇼핑몰",
+      "overview": "تضحى حياتها متاهة من الغموض غداة الانتحار المزعوم لعمّها، إذ ينهال عليها وابل من الرصاص تارة وتُحاصر بطائرات مُسيّرة للقتل تارّة، وللنجاة يتعين عليها كشف طلاسم وفاة عمّها وسبب استهدافها بلا رحمة من كلّ جانب.",
+      "poster_path": "/AvrBbDO8Fhtcey94877eqOg1VOn.jpg",
       "media_type": "tv",
-      "original_language": "en",
+      "original_language": "ko",
       "genre_ids": [
         18,
-        10751
+        10759,
+        9648
       ],
-      "popularity": 46.1881,
-      "first_air_date": "2026-08-13",
+      "popularity": 73.1271,
+      "first_air_date": "2024-01-17",
       "softcore": false,
-      "vote_average": 4.6,
-      "vote_count": 19,
+      "vote_average": 8.435,
+      "vote_count": 221,
       "origin_country": [
-        "AU"
+        "KR"
       ]
     },
     {
@@ -856,7 +785,7 @@
         18,
         10759
       ],
-      "popularity": 38.0203,
+      "popularity": 35.5474,
       "first_air_date": "2026-07-30",
       "softcore": false,
       "vote_average": 6.8,
@@ -867,50 +796,117 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/9it8mz6Qk9jIZwX9Qv4J2LP9THF.jpg",
-      "id": 289324,
-      "name": "حرب النجوم: رؤى تقدّم — الجيداي التاسع",
-      "original_name": "スター・ウォーズ：ビジョンズ／九人目のジェダイ",
-      "overview": "تسعى \"كارا\" وطاقمها غير المتجانس من الـ\"جيداي\" للبحث عن فرسان \"جيداي\" أكفاء لمحاربة قائد حرب يزداد قوة باستمرار.",
-      "poster_path": "/eebJOli5IJtneDrqM85tSVZ9uTA.jpg",
+      "backdrop_path": "/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
+      "id": 103516,
+      "name": "ستار تريك: عوالم جديدة غريبة",
+      "original_name": "Star Trek: Strange New Worlds",
+      "overview": "تابع قصة Christopher Pike و Spock و Number One قبل سنوات من وصول الكابتن Kirk إلى U.S.S. Enterprise ، وهم يستكشفون عوالم جديدة حول المجرة.  تقع أحداث القصة قبل مسلسل Star Trek: The Original Series و Star Trek: Discovery.",
+      "poster_path": "/bATm9ZqdkPGizpO9YGCm1E98XV3.jpg",
       "media_type": "tv",
-      "original_language": "ja",
+      "original_language": "en",
       "genre_ids": [
-        16,
         10765,
-        10759
+        18
       ],
-      "popularity": 31.6206,
-      "first_air_date": "2026-08-05",
+      "popularity": 65.0737,
+      "first_air_date": "2022-05-05",
       "softcore": false,
-      "vote_average": 7.5,
-      "vote_count": 22,
+      "vote_average": 7.907,
+      "vote_count": 816,
       "origin_country": [
-        "JP",
         "US"
       ]
     },
     {
       "adult": false,
-      "backdrop_path": "/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg",
-      "id": 76479,
-      "name": "الرفاق",
-      "original_name": "The Boys",
-      "overview": "يعيش هيوي كامبل حياة هادئة إلى أن يفقد الشخص الذي يحبه في حادث مأساوي يتسبب فيه أحد الأبطال الخارقين، فيكتشف أن أصحاب القدرات الخارقة ليسوا أبطالًا مثاليين كما يعتقد الناس. يلتقي هيوي ببيلي بوتشر، الذي يقوده إلى مجموعة سرية تُعرف باسم الرفاق، مهمتها كشف فساد الأبطال الخارقين ومحاسبتهم. وفي الجهة الأخرى، يواجه هوملاندر ضغوطًا متزايدة للحفاظ على صورته المثالية أمام الجمهور. ومع تصاعد المواجهة بين الطرفين، تنكشف أسرار خطيرة تهدد بتغيير عالم الأبطال الخارقين بالكامل.",
-      "poster_path": "/l1S7IHu5S4VyYpP0Z4lh6MLfK6g.jpg",
+      "backdrop_path": "/xyS9R7Dno812rPLzpN4gJrDUUFd.jpg",
+      "id": 247522,
+      "name": "Tires",
+      "original_name": "Tires",
+      "overview": "",
+      "poster_path": "/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg",
       "media_type": "tv",
       "original_language": "en",
       "genre_ids": [
-        10765,
-        10759
+        35
       ],
-      "popularity": 121.0604,
-      "first_air_date": "2019-07-25",
+      "popularity": 45.5279,
+      "first_air_date": "2024-05-23",
       "softcore": false,
-      "vote_average": 8.436,
-      "vote_count": 13300,
+      "vote_average": 6.7,
+      "vote_count": 95,
       "origin_country": [
         "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eqLwFXX0R7U0crdgQcj0Rxjb9uc.jpg",
+      "id": 120911,
+      "name": "قائمة الموتى",
+      "original_name": "The Terminal List",
+      "overview": "يتحول رائد البحرية \"جيمس ريس\" إلى الانتقام بينما يحقق في القوى الغامضة وراء مقتل فصيلته بأكملها. بعيدًا عن هيكل القيادة العسكرية، يطبق\"ريس\" الدروس التي تعلمها من ما يقرب من عقدين من الحرب لتعقب الأشخاص المسؤولين.",
+      "poster_path": "/jbyaKYNexl1poKZnEmB6Qobn60s.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "popularity": 37.741,
+      "first_air_date": "2022-06-30",
+      "softcore": false,
+      "vote_average": 7.955,
+      "vote_count": 1176,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
+      "id": 298168,
+      "name": "The Shards",
+      "original_name": "The Shards",
+      "overview": "",
+      "poster_path": "/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "popularity": 55.421,
+      "first_air_date": "2026-08-05",
+      "softcore": false,
+      "vote_average": 7.067,
+      "vote_count": 30,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
+      "id": 94664,
+      "name": "موشوكو تينسي",
+      "original_name": "無職転生 ～異世界行ったら本気だす～",
+      "overview": "عندما تدهس شاحنة شابًا يبلغ من العمر 34 سنة، لا تنتهي قصته هناك. بل يعاد بعثه في عالم جديد كرضيع، ينتهز \"رودي\" كلّ فرصة ليعيش الحياة التي لطالما أرادها. مدعومًا بأصدقاء جُدد، وبعض القدرات السحرية المكتسبة حديثًا، والشجاعة لفعل الأشياء التي كان يحلم بها دائمًا، ينطلق في مغامرة ملحمية، مع تذكره لكل تجربته السابقة.",
+      "poster_path": "/8RukSzEsRnNIPIOQflg5cBwx5f2.jpg",
+      "media_type": "tv",
+      "original_language": "ja",
+      "genre_ids": [
+        10759,
+        16,
+        10765
+      ],
+      "popularity": 128.7099,
+      "first_air_date": "2021-01-11",
+      "softcore": false,
+      "vote_average": 8.408,
+      "vote_count": 1677,
+      "origin_country": [
+        "JP"
       ]
     }
   ],
@@ -929,13 +925,13 @@
       "original_language": "en",
       "original_title": "Avatar Aang: The Last Airbender",
       "overview": "ينغمس أفتار انغ آخر مسخّر هواء في العالم، في اكتشاف قوة قديمة يمكنها إنقاذ ثقافته من الانقراض. وبمساعدة أصدقائه، ينطلق في رحلة حول العالم للعثور عليها قبل أن تقع في الأيدي الخطأ، حيث قد تهدد بقلب السلام الذي ضحّوا بكل شيء لتحقيقه",
-      "popularity": 110.9348,
+      "popularity": 105.1595,
       "poster_path": "/hN5iHcubOt8MkJN6vVDNg4iCwlW.jpg",
       "release_date": "2026-07-24",
       "softcore": false,
       "video": false,
-      "vote_average": 9.224,
-      "vote_count": 902
+      "vote_average": 9.227,
+      "vote_count": 913
     },
     {
       "adult": false,
@@ -949,13 +945,13 @@
       "original_language": "es",
       "original_title": "Socias por accidente",
       "overview": "",
-      "popularity": 24.8184,
+      "popularity": 24.9852,
       "poster_path": "/j0CIVzeR7hRAPBPGR54qDZoOQpp.jpg",
       "release_date": "2026-03-12",
       "softcore": false,
       "video": false,
-      "vote_average": 8.89,
-      "vote_count": 355
+      "vote_average": 8.891,
+      "vote_count": 357
     },
     {
       "adult": false,
@@ -971,13 +967,13 @@
       "original_language": "en",
       "original_title": "Swapped",
       "overview": "يتبادل مخلوق ضئيل من سكان الغابة جسده فجأة مع أنثى طير مهيبة، فيتعين عليهما التعاون معًا للنجاة في أكبر مغامرات حياتهما.",
-      "popularity": 50.529,
+      "popularity": 49.9344,
       "poster_path": "/c2m0KshJuJMxVhPaB352U8Tuk5E.jpg",
       "release_date": "2026-05-01",
       "softcore": false,
       "video": false,
       "vote_average": 8.88,
-      "vote_count": 2112
+      "vote_count": 2113
     },
     {
       "adult": false,
@@ -992,13 +988,13 @@
       "original_language": "ja",
       "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
       "overview": "بينما كان أعضاء فيلق قاتلي الشياطين و\"الهشيرا\" يخضعون لبرنامج تدريب جماعي يُعرف بتدريب الهشيرا استعدادًا للمعركة الحاسمة ضد الشياطين، يظهر موزان كيبوتسوجي في قصر عائلة أوبوياشيكي. ومع تعرّض قائد الفيلق للخطر، يندفع تانجيرو والهشيرا إلى المقر الرئيسي، لكنهم يجدون أنفسهم يسقطون في أعماق مكان غامض بفعل يدي موزان. الوجهة التي سقط فيها تانجيرو ورفاقه ليست سوى معقل الشياطين – قلعة اللانهاية. وهكذا، تبدأ ساحة المعركة النهائية بين فيلق قاتلي الشياطين وقوى الشر في الاشتعال.",
-      "popularity": 92.4348,
+      "popularity": 92.3438,
       "poster_path": "/4xdWWzKsO4ua6u7qu6O43HjfthR.jpg",
       "release_date": "2025-07-18",
       "softcore": false,
       "video": false,
       "vote_average": 8.731,
-      "vote_count": 1892
+      "vote_count": 1901
     },
     {
       "adult": false,
@@ -1012,13 +1008,13 @@
       "original_language": "en",
       "original_title": "The Shawshank Redemption",
       "overview": "في أربعينيات القرن الماضي، يُدان المصرفي آندي دوفرين بجريمة قتل زوجته وعشيقها ويُزجّ به في سجن شاوشانك. داخل هذا العالم القاسي، يجد نفسه يعمل لصالح مدير فاسد مستغلًا مهاراته في المحاسبة. ومع مرور السنوات، يفرض آندي حضوره بين السجناء، ويكسب احترامهم — خصوصًا السجين رِد — بفضل ثباته ونزاهته وإصراره على التمسك بالأمل مهما اشتدت الظروف.",
-      "popularity": 88.7998,
+      "popularity": 87.6812,
       "poster_path": "/KBUq6m4mWjNymPgNiflyKogSWS.jpg",
       "release_date": "1994-09-23",
       "softcore": false,
       "video": false,
-      "vote_average": 8.728,
-      "vote_count": 31084
+      "vote_average": 8.7,
+      "vote_count": 31090
     },
     {
       "adult": false,
@@ -1032,13 +1028,13 @@
       "original_language": "en",
       "original_title": "The Godfather",
       "overview": "يمتد من عام 1945 إلى عام 1955 ، وهو سرد تاريخي لعائلة جريمة كورليوني الإيطالية الأمريكية الخيالية. عندما ينجو مؤسس عائلة الجريمة المنظمة ، فيتو كورليوني ، بالكاد من محاولة اغتيال ، يتدخل ابنه الأصغر مايكل لرعاية القتلة المحتملين ، ويطلق حملة انتقامية دموية",
-      "popularity": 57.6588,
+      "popularity": 58.7501,
       "poster_path": "/i0EypgL6f5IUYoTPkzXJGrLBMi7.jpg",
       "release_date": "1972-03-14",
       "softcore": false,
       "video": false,
       "vote_average": 8.685,
-      "vote_count": 23376
+      "vote_count": 23384
     },
     {
       "adult": false,
@@ -1052,13 +1048,13 @@
       "original_language": "en",
       "original_title": "Michael",
       "overview": "يروي الفيلم قصة حياة مايكل جاكسون بعيداً عن الموسيقى، متتبعاً رحلته منذ اكتشاف موهبته الاستثنائية كقائد لفرقة \"جاكسون فايف\"، وصولاً إلى الفنان الملهم الذي دفع طموحه الإبداعي سعياً حثيثاً ليصبح أعظم فنان استعراضي في العالم. ومن خلال تسليط الضوء على حياته خارج الأضواء وبعض أكثر عروضه شهرة في بدايات مسيرته المنفردة، يمنح الفيلم الجمهور فرصة لمشاهدة مايكل جاكسون كما لم يروه من قبل. من هنا تبدأ قصته.",
-      "popularity": 81.9152,
+      "popularity": 78.3949,
       "poster_path": "/z2yFF5Zh86tZAzlcZ4Y0jBUQDRe.jpg",
       "release_date": "2026-04-22",
       "softcore": false,
       "video": false,
-      "vote_average": 8.675,
-      "vote_count": 4078
+      "vote_average": 8.67,
+      "vote_count": 4090
     },
     {
       "adult": false,
@@ -1072,13 +1068,13 @@
       "original_language": "en",
       "original_title": "Project Hail Mary",
       "overview": "يستيقظ رايلاند غريس، مدرس العلوم، على متن مركبة فضائية تبعد سنوات ضوئية عن موطنه، فاقدًا للذاكرة تمامًا، لا يتذكر من هو ولا كيف وصل إلى هناك. ومع عودة ذاكرته تدريجيًا، يبدأ في اكتشاف مهمته: حل لغز المادة الغامضة التي تتسبب في انطفاء الشمس. عليه أن يستعين بمعرفته العلمية وأفكاره غير التقليدية لإنقاذ كل شيء على الأرض من الفناء... لكن صداقة غير متوقعة تعني أنه قد لا يضطر إلى القيام بذلك بمفرده.",
-      "popularity": 127.2495,
+      "popularity": 125.0677,
       "poster_path": "/wNnoJaRb5Oc9SodTWJLEC26wL8q.jpg",
       "release_date": "2026-03-15",
       "softcore": false,
       "video": false,
-      "vote_average": 8.652,
-      "vote_count": 7169
+      "vote_average": 8.7,
+      "vote_count": 7196
     },
     {
       "adult": false,
@@ -1092,13 +1088,13 @@
       "original_language": "en",
       "original_title": "The Godfather Part II",
       "overview": "في الجزء الثاني من ملحمة عائلة كورليوني الإجرامية، نتابع قصة فيتو كورليوني في شبابه، حيث نشأ في صقلية ثم انتقل إلى نيويورك خلال العقد الثاني من القرن العشرين.  وفي خمسينيات القرن الماضي، يسعى مايكل كورليوني إلى توسيع نفوذ وأعمال العائلة لتشمل لاس فيغاس وهوليوود وكوبا.",
-      "popularity": 30.7144,
+      "popularity": 31.8998,
       "poster_path": "/7N1EoBUbfkZ1KWa9hW1rLniwIuG.jpg",
       "release_date": "1974-12-20",
       "softcore": false,
       "video": false,
       "vote_average": 8.572,
-      "vote_count": 14196
+      "vote_count": 14202
     },
     {
       "adult": false,
@@ -1113,13 +1109,13 @@
       "original_language": "en",
       "original_title": "Schindler's List",
       "overview": "القصة الحقيقية لكيفية إنقاذ رجل الأعمال \"أوسكار شندلر\" أكثر من ألف يهودي من أرواح النازيين أثناء عملهم كعبيد في مصنعه خلال الحرب العالمية الثانية.",
-      "popularity": 36.2824,
+      "popularity": 35.3747,
       "poster_path": "/k4YLDFLncG5H0FTrUhVmpMiLLHe.jpg",
       "release_date": "1993-12-15",
       "softcore": false,
       "video": false,
       "vote_average": 8.57,
-      "vote_count": 17762
+      "vote_count": 17767
     },
     {
       "adult": false,
@@ -1132,13 +1128,13 @@
       "original_language": "en",
       "original_title": "12 Angry Men",
       "overview": "انتهى الدفاع والادعاء من تقديم مرافعاتهما، ودخلت هيئة المحلفين إلى غرفة المداولة لتحديد ما إذا كان شاب أمريكي من أصل إسباني مذنبًا أم بريئًا من تهمة قتل والده. ما بدأ كقضية محسومة سرعان ما تحول إلى دراما مصغرة تعكس تحيزات كل محلف وأفكاره المسبقة عن المحاكمة والمتهم وعن بعضهم البعض",
-      "popularity": 27.3162,
+      "popularity": 26.9569,
       "poster_path": "/klS82DRdJg3eK2sj0tOO3OhM3mj.jpg",
       "release_date": "1957-04-10",
       "softcore": false,
       "video": false,
-      "vote_average": 8.569,
-      "vote_count": 10252
+      "vote_average": 8.6,
+      "vote_count": 10254
     },
     {
       "adult": false,
@@ -1152,34 +1148,13 @@
       "original_language": "nl",
       "original_title": "Young Hearts",
       "overview": "",
-      "popularity": 16.7894,
+      "popularity": 15.9497,
       "poster_path": "/xsApLXxqTG5uorAZRF0kJi0oXfR.jpg",
       "release_date": "2024-10-26",
       "softcore": false,
       "video": false,
-      "vote_average": 8.567,
+      "vote_average": 8.6,
       "vote_count": 304
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        14
-      ],
-      "id": 129,
-      "title": "المخطوفة",
-      "original_language": "ja",
-      "original_title": "千と千尋の神隠し",
-      "overview": "تتجول \"شيهيرو\" في عالم سحري تحكمه ساحرة - تقوم بتحويل كل من يعصيها إلى حيوانات.",
-      "popularity": 31.842,
-      "poster_path": "/o9bDF4M3CQPn8e6PMAhJW5K6ciQ.jpg",
-      "release_date": "2001-07-20",
-      "softcore": false,
-      "video": false,
-      "vote_average": 8.534,
-      "vote_count": 18725
     },
     {
       "adult": false,
@@ -1194,13 +1169,34 @@
       "original_language": "en",
       "original_title": "The Dark Knight",
       "overview": "يبدأ باتمان فى محاربة العدو الجديد (الجوكر) الذي يسعى لنشر الذعر والشر في جوثام، وإثبات أن العيش بدون قواعد أفضل، مما يؤدي لصراع بين الاثنين يشترك فيه المفتش جوردن والمدعى العام هارفي دينت وراشيل صديقة بروس وين.",
-      "popularity": 61.3608,
+      "popularity": 61.6543,
       "poster_path": "/6Z9znq1IxwknrdPbXyr7NJJPhpP.jpg",
       "release_date": "2008-07-16",
       "softcore": false,
       "video": false,
       "vote_average": 8.534,
-      "vote_count": 36443
+      "vote_count": 36449
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "id": 129,
+      "title": "المخطوفة",
+      "original_language": "ja",
+      "original_title": "千と千尋の神隠し",
+      "overview": "تتجول \"شيهيرو\" في عالم سحري تحكمه ساحرة - تقوم بتحويل كل من يعصيها إلى حيوانات.",
+      "popularity": 34.5587,
+      "poster_path": "/o9bDF4M3CQPn8e6PMAhJW5K6ciQ.jpg",
+      "release_date": "2001-07-20",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.534,
+      "vote_count": 18732
     },
     {
       "adult": false,
@@ -1216,12 +1212,12 @@
       "original_language": "ja",
       "original_title": "劇場版 チェンソーマン レゼ篇",
       "overview": "في حرب وحشية بين الشياطين والصيادين والأعداء السريين، دخلت فتاة غامضة تدعى ريزي عالم دينجي، الذي يواجه أخطر معركة له حتى الآن، مدفوعًا بالحب في عالم لا تعرف فيه البقاء على قيد الحياة أي قواعد.",
-      "popularity": 30.4075,
+      "popularity": 30.679,
       "poster_path": "/108dC9XdzJL70HIYiaJIDQ9Pvpb.jpg",
       "release_date": "2025-09-19",
       "softcore": false,
       "video": false,
-      "vote_average": 8.527,
+      "vote_average": 8.5,
       "vote_count": 1128
     },
     {
@@ -1237,13 +1233,13 @@
       "original_language": "en",
       "original_title": "The Green Mile",
       "overview": "يعمل بول إدجكومب حارسًا في سجن كولد ماونتن، حيث يتولى الإشراف على المحكوم عليهم بالإعدام، إلى أن يصل السجين جون كوفي، رجل ضخم الجثة يتمتع بطيبة غريبة وقدرات خارقة لا يفهمها أحد. يُتهم كوفي بقتل طفلتين صغيرتين، لكن بول وزملاءه يبدأون في ملاحظة تصرفاته غير المعتادة وقدرته الغامضة على شفاء المرضى. ومع مرور الوقت، تتكشف حقائق تغير نظرة بول إلى الجريمة التي قادت كوفي إلى السجن، ويجد نفسه أمام معضلة مؤلمة بين تنفيذ القانون وما يعتقد أنه العدالة الحقيقية.",
-      "popularity": 33.045,
+      "popularity": 32.0676,
       "poster_path": "/vAHuvaUC885P78BNS3BMu9qM7ve.jpg",
       "release_date": "1999-12-10",
       "softcore": false,
       "video": false,
       "vote_average": 8.506,
-      "vote_count": 19640
+      "vote_count": 19645
     },
     {
       "adult": false,
@@ -1258,12 +1254,12 @@
       "original_language": "hi",
       "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
       "overview": "الفيلم يدور حول أسرتين هنديتين تعيشان في لندن، تذهب ابنة إحدى الأسرتين (سيمران) في رحلة قبل أن تتزوج برجل لا تعرفه، ويذهب ابن الأسرة الأخرى (راج) في نفس الرحلة، ليلتقيا ببعضهما البعض، ويقع بينهما الحب الحقيقي، ويجد كل منهما حب حياته في الطرف الآخر، ولكن عليهم التغلب على المصاعب الشديدة والقوية التي تحول دون ارتباطهم بعضهما البعض.",
-      "popularity": 13.9509,
+      "popularity": 14.1902,
       "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
       "release_date": "1995-10-20",
       "softcore": false,
       "video": false,
-      "vote_average": 8.504,
+      "vote_average": 8.5,
       "vote_count": 4614
     },
     {
@@ -1279,13 +1275,13 @@
       "original_language": "en",
       "original_title": "The Lord of the Rings: The Return of the King",
       "overview": "تم الكشف عن أراغورن باعتباره وريث الملوك القدامى حيث يكافح هو وقاندالف والأعضاء الآخرون في الشركة المكسورة لإنقاذ جوندور من قوات سورون. في هذه الأثناء ، يقترب فرودو وسام من الخاتم إلى قلب موردور ، عالم اللورد المظلم.",
-      "popularity": 50.5079,
+      "popularity": 48.7188,
       "poster_path": "/xMMnQwgVbz5tbbKN6rxHxST9613.jpg",
       "release_date": "2003-12-17",
       "softcore": false,
       "video": false,
       "vote_average": 8.504,
-      "vote_count": 27122
+      "vote_count": 27129
     },
     {
       "adult": false,
@@ -1300,34 +1296,34 @@
       "original_language": "ko",
       "original_title": "기생충",
       "overview": "تدور أحداث الفيلم حول عائلة عاطلة عن العمل، تُقيم داخل شقة فقيرة، تتغير حياتهم كُليًا عندما يلتحق الابن بوظيفة مدرس لابنة عائلة ثرية، وسرعان ما يصير جميع أفراد اﻷسرة الفقيرة عاملين لدى اﻷسرة الثرية إلى أن يتورطوا في حادث غير متوقع.",
-      "popularity": 37.6515,
+      "popularity": 36.869,
       "poster_path": "/yWAshnqG2WXP25FYZJmC2hfe2LH.jpg",
       "release_date": "2019-05-30",
       "softcore": false,
       "video": false,
-      "vote_average": 8.49,
-      "vote_count": 21120
+      "vote_average": 8.491,
+      "vote_count": 21127
     },
     {
       "adult": false,
-      "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
+      "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
       "genre_ids": [
-        16,
-        10749,
-        18
+        12,
+        18,
+        878
       ],
-      "id": 372058,
-      "title": "اسمك",
-      "original_language": "ja",
-      "original_title": "君の名は。",
-      "overview": "يجد اثنان من الغرباء أنفسهم مرتبطين بطريقة غريبة. عندما يتشكل اتصال ، هل ستكون المسافة هي الشيء الوحيد الذي يجعلهم منفصلين؟",
-      "popularity": 27.3264,
-      "poster_path": "/yLglTwyFOUZt5fNKm0PWL1PK5gm.jpg",
-      "release_date": "2016-07-01",
+      "id": 157336,
+      "title": "بين النجوم",
+      "original_language": "en",
+      "original_title": "Interstellar",
+      "overview": "يعيش كوبر، رائد الفضاء السابق الذي يعمل مزارعًا، في مستقبل تعاني فيه الأرض من أزمات بيئية تهدد بقاء البشرية. عندما يكتشف وجود طريق غامض عبر الفضاء، ينضم إلى مهمة سرية لاستكشاف عوالم بعيدة يمكن أن توفر للبشرية فرصة جديدة للحياة. يسافر كوبر مع فريق من العلماء عبر ثقب دودي بالقرب من زحل، ويواجهون كواكب مجهولة وظروفًا قاسية تجعل مرور الوقت مختلفًا عن الأرض. وبينما يحاول كوبر إنقاذ مستقبل البشرية، يظل أكبر دافع له هو العودة إلى أطفاله، لتتحول رحلته إلى صراع بين العلم والوقت والحب.",
+      "popularity": 67.3846,
+      "poster_path": "/rR8bjK9dOXXH9H8AdpfPTlRx8Fy.jpg",
+      "release_date": "2014-11-05",
       "softcore": false,
       "video": false,
-      "vote_average": 8.484,
-      "vote_count": 12879
+      "vote_average": 8.5,
+      "vote_count": 40821
     }
   ],
   "popular_series": [
@@ -1336,7 +1332,6 @@
       "backdrop_path": "/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
       "genre_ids": [
         10759,
-        18,
         80
       ],
       "id": 108978,
@@ -1351,30 +1346,8 @@
       "first_air_date": "2022-02-03",
       "softcore": false,
       "name": "جاك ريتشر",
-      "vote_average": 8.085,
-      "vote_count": 3090
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
-      "genre_ids": [
-        18,
-        10768
-      ],
-      "id": 113962,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Lioness",
-      "overview": "بينما تسعى (جو) للحفاظ على استقرار حياتها الشخصية والعملية في آن واحد، تواجه العديد من العقبات في حرب المخابرات المركزية ضد الإرهاب، وتستعين بـ(كروز) من قوات المارينز للعمل عميلة سرية لحسابها في إحدى المهمات.",
-      "popularity": 359.4068,
-      "poster_path": "/iuvropv4Fj1PQM2DSgYYzOtimm2.jpg",
-      "first_air_date": "2023-07-23",
-      "softcore": false,
-      "name": "ليونيس",
-      "vote_average": 8.075,
-      "vote_count": 1375
+      "vote_average": 8.084,
+      "vote_count": 3095
     },
     {
       "adult": false,
@@ -1396,8 +1369,30 @@
       "first_air_date": "2008-09-23",
       "softcore": false,
       "name": "الوسيط الروحي",
-      "vote_average": 8.386,
-      "vote_count": 4584
+      "vote_average": 8.385,
+      "vote_count": 4587
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "id": 113962,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Lioness",
+      "overview": "بينما تسعى (جو) للحفاظ على استقرار حياتها الشخصية والعملية في آن واحد، تواجه العديد من العقبات في حرب المخابرات المركزية ضد الإرهاب، وتستعين بـ(كروز) من قوات المارينز للعمل عميلة سرية لحسابها في إحدى المهمات.",
+      "popularity": 359.4068,
+      "poster_path": "/iuvropv4Fj1PQM2DSgYYzOtimm2.jpg",
+      "first_air_date": "2023-07-23",
+      "softcore": false,
+      "name": "ليونيس",
+      "vote_average": 8.074,
+      "vote_count": 1378
     },
     {
       "adult": false,
@@ -1440,52 +1435,8 @@
       "first_air_date": "2022-08-21",
       "softcore": false,
       "name": "آل التنين",
-      "vote_average": 8.386,
-      "vote_count": 6994
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jv7E1Fr6roiVQSvql6bWqOQVDC9.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 67707,
-      "origin_country": [
-        "SE"
-      ],
-      "original_language": "sv",
-      "original_name": "Paradise Hotel",
-      "overview": "",
-      "popularity": 258.4446,
-      "poster_path": "/aeU8fC5JaG2BkWqgMX7yPfX7dfW.jpg",
-      "first_air_date": "2005-01-17",
-      "softcore": false,
-      "name": "Paradise Hotel",
-      "vote_average": 5.0,
-      "vote_count": 4
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dyFTt1a9ZpFdKE96kPlE9fQvXOJ.jpg",
-      "genre_ids": [
-        10751,
-        35,
-        18
-      ],
-      "id": 91759,
-      "origin_country": [
-        "HK"
-      ],
-      "original_language": "cn",
-      "original_name": "愛·回家之開心速遞",
-      "overview": "أنشأ هونغ سو غان ، بدءا من القاع ، شركته اللوجستية الخاصة ، والتي تعمل الآن بسلاسة. همه الوحيد الآن هو بناته الثلاث. وقد هاجرت ابنته الكبرى إلى الخارج. وقد وصلت ابنته الثانية هونغ يوك شوي إلى سن الزواج، ولكن ليس لديها أي أمل في الزواج في أي وقت قريب. وهي تتشاجر باستمرار مع شقيقتها الصغرى هونغ سوم يو، وهي طالبة شرف، حول أمور تافهة، مما يجعل والدهما لا يعرف ما إذا كان يضحك أو يبكي. ينتقل هونغ سو يان ، شقيق هونغ سو غان ، مع العائلة ، وينهي حياته مؤقتا كمصور بدوي. ينضم إلى شركة هونغ يوك شوي ويلتقي بكو باك فاي ، مدير متجر عبر الإنترنت. يبدو أن الاثنين عاشقان سابقان ، مما يجعل الكثير من الضحك. منذ انتقال هونغ سو يان ، وقعت سلسلة من الأحداث الغريبة في الأسرة. عند التحقيق ، يتم تتبع المصدر إلى Lung Ging Fung ، وهو شاب واعد وهو ابن قطب المتاجر Lung Gam Wai.",
-      "popularity": 177.3611,
-      "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
-      "first_air_date": "2017-02-20",
-      "softcore": false,
-      "name": "愛·回家之開心速遞",
-      "vote_average": 5.4,
-      "vote_count": 46
+      "vote_average": 8.4,
+      "vote_count": 7000
     },
     {
       "adult": false,
@@ -1507,8 +1458,29 @@
       "first_air_date": "2026-08-16",
       "softcore": false,
       "name": "الفوانيس",
-      "vote_average": 8.11,
-      "vote_count": 105
+      "vote_average": 8.056,
+      "vote_count": 116
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jv7E1Fr6roiVQSvql6bWqOQVDC9.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 67707,
+      "origin_country": [
+        "SE"
+      ],
+      "original_language": "sv",
+      "original_name": "Paradise Hotel",
+      "overview": "",
+      "popularity": 258.4446,
+      "poster_path": "/aeU8fC5JaG2BkWqgMX7yPfX7dfW.jpg",
+      "first_air_date": "2005-01-17",
+      "softcore": false,
+      "name": "Paradise Hotel",
+      "vote_average": 5.0,
+      "vote_count": 4
     },
     {
       "adult": false,
@@ -1571,29 +1543,8 @@
       "first_air_date": "2023-05-04",
       "softcore": false,
       "name": "Silo",
-      "vote_average": 8.189,
-      "vote_count": 2457
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 1416,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Grey's Anatomy",
-      "overview": "الحياة الشخصية والمهنية لمجموعة من الأطباء في مستشفى - قراي سلون - في سياتل، الولايات المتحدة.",
-      "popularity": 215.7355,
-      "poster_path": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
-      "first_air_date": "2005-03-27",
-      "softcore": false,
-      "name": "تشريح غراي",
-      "vote_average": 8.207,
-      "vote_count": 11013
+      "vote_average": 8.19,
+      "vote_count": 2463
     },
     {
       "adult": false,
@@ -1615,51 +1566,29 @@
       "first_air_date": "2018-10-16",
       "softcore": false,
       "name": "المبتدئ",
-      "vote_average": 8.544,
-      "vote_count": 3475
+      "vote_average": 8.5,
+      "vote_count": 3476
     },
     {
       "adult": false,
-      "backdrop_path": "/1E8PabwfDIaxREyfe9fxfINqauu.jpg",
+      "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
       "genre_ids": [
-        10764
+        18
       ],
-      "id": 37528,
-      "origin_country": [
-        "AR"
-      ],
-      "original_language": "es",
-      "original_name": "Gran hermano",
-      "overview": "",
-      "popularity": 201.2475,
-      "poster_path": "/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "first_air_date": "2001-03-10",
-      "softcore": false,
-      "name": "Gran hermano",
-      "vote_average": 4.5,
-      "vote_count": 4
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/7VO04TtL1jIT6XOPs9u4jdB8KaB.jpg",
-      "genre_ids": [
-        35,
-        10767
-      ],
-      "id": 59941,
+      "id": 1416,
       "origin_country": [
         "US"
       ],
       "original_language": "en",
-      "original_name": "The Tonight Show Starring Jimmy Fallon",
-      "overview": "",
-      "popularity": 204.8759,
-      "poster_path": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
-      "first_air_date": "2014-02-17",
+      "original_name": "Grey's Anatomy",
+      "overview": "الحياة الشخصية والمهنية لمجموعة من الأطباء في مستشفى - قراي سلون - في سياتل، الولايات المتحدة.",
+      "popularity": 215.7355,
+      "poster_path": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
+      "first_air_date": "2005-03-27",
       "softcore": false,
-      "name": "The Tonight Show Starring Jimmy Fallon",
-      "vote_average": 5.766,
-      "vote_count": 385
+      "name": "تشريح غراي",
+      "vote_average": 8.207,
+      "vote_count": 11014
     },
     {
       "adult": false,
@@ -1681,7 +1610,50 @@
       "softcore": false,
       "name": "آل سيمبسون",
       "vote_average": 8.021,
-      "vote_count": 10942
+      "vote_count": 10944
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7VO04TtL1jIT6XOPs9u4jdB8KaB.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 59941,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Tonight Show Starring Jimmy Fallon",
+      "overview": "",
+      "popularity": 204.8759,
+      "poster_path": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+      "first_air_date": "2014-02-17",
+      "softcore": false,
+      "name": "The Tonight Show Starring Jimmy Fallon",
+      "vote_average": 5.8,
+      "vote_count": 385
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gH3HCoEBuiLqzZii0sOMfMyXSR8.jpg",
+      "genre_ids": [
+        16
+      ],
+      "id": 204269,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "森のくまさん、冬眠中。",
+      "overview": "",
+      "popularity": 204.0631,
+      "poster_path": "/mGMO3bW9ByTj4xkqCaBQyti4QHm.jpg",
+      "first_air_date": "2022-07-04",
+      "softcore": false,
+      "name": "森のくまさん、冬眠中。",
+      "vote_average": 5.9,
+      "vote_count": 7
     },
     {
       "adult": false,
@@ -1703,6 +1675,27 @@
       "name": "Capitão Furacão",
       "vote_average": 0.0,
       "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1E8PabwfDIaxREyfe9fxfINqauu.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 37528,
+      "origin_country": [
+        "AR"
+      ],
+      "original_language": "es",
+      "original_name": "Gran hermano",
+      "overview": "",
+      "popularity": 201.2475,
+      "poster_path": "/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "first_air_date": "2001-03-10",
+      "softcore": false,
+      "name": "Gran hermano",
+      "vote_average": 4.5,
+      "vote_count": 4
     },
     {
       "adult": false,
@@ -1746,29 +1739,31 @@
       "first_air_date": "2003-09-23",
       "softcore": false,
       "name": "إن سي آي أس",
-      "vote_average": 7.607,
-      "vote_count": 2549
+      "vote_average": 7.609,
+      "vote_count": 2551
     },
     {
       "adult": false,
-      "backdrop_path": "/go422YL6ytCPCZsrTCBmAJYaI72.jpg",
+      "backdrop_path": "/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
       "genre_ids": [
-        10764
+        80,
+        18,
+        9648
       ],
-      "id": 46271,
+      "id": 1431,
       "origin_country": [
-        "FR"
+        "US"
       ],
-      "original_language": "fr",
-      "original_name": "Secret Story",
-      "overview": "",
-      "popularity": 185.5163,
-      "poster_path": "/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
-      "first_air_date": "2007-06-23",
+      "original_language": "en",
+      "original_name": "CSI: Crime Scene Investigation",
+      "overview": "في إطار من الجريمة والغموض، تدور الأحداث حول مجموعة من خبراء الطب الشرعى التابعين للشرطة في وﻻية لوس أنجلوس الأمريكية، الذين يقومون بالتحقيق فى القضايا الغامضة.",
+      "popularity": 194.2331,
+      "poster_path": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
+      "first_air_date": "2000-10-06",
       "softcore": false,
-      "name": "Secret Story",
-      "vote_average": 4.423,
-      "vote_count": 13
+      "name": "سي اس آي: التحقيق في مسرح الجريمة",
+      "vote_average": 7.623,
+      "vote_count": 1417
     }
   ]
 }
